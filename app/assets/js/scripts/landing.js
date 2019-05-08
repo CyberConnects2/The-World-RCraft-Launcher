@@ -92,7 +92,7 @@ document.getElementById('launch_button').addEventListener('click', function(e){
         asyncSystemScan(mcVersion)
     } else {
 
-        setLaunchDetails(Lang.queryJS('landing.launch.pleaseWait'))
+        setLaunchDetails('Please wait..')
         toggleLaunchArea(true)
         setLaunchPercentage(0, 100)
 
@@ -130,7 +130,7 @@ function updateSelectedAccount(authUser){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://crafatar.com/renders/body/${authUser.uuid}')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('http://www.cyberconnects2.com/games/rcraft/skins/test/3d.php?headOnly=true&login=${authUser.displayName}')`
         }
     }
     user_text.innerHTML = username
@@ -323,7 +323,7 @@ function asyncSystemScan(mcVersion, launchAfter = true){
                 // Show this information to the user.
                 setOverlayContent(
                     'No Compatible<br>Java Installation Found',
-                    'In order to join WesterosCraft, you need a 64-bit installation of Java 8. Would you like us to install a copy? By installing, you accept <a href="http://www.oracle.com/technetwork/java/javase/terms/license/index.html">Oracle\'s license agreement</a>.',
+                    'In order to join The World RCraft, you need a 64-bit installation of Java 8. Would you like us to install a copy? By installing, you accept <a href="http://www.oracle.com/technetwork/java/javase/terms/license/index.html">Oracle\'s license agreement</a>.',
                     'Install Java',
                     'Install Manually'
                 )
@@ -664,9 +664,9 @@ function dlAsync(login = true){
                 const gameStateChange = function(data){
                     data = data.trim()
                     if(SERVER_JOINED_REGEX.test(data)){
-                        DiscordWrapper.updateDetails('Exploring the Realm!')
+                        DiscordWrapper.updateDetails('Exploring The World RCraft!')
                     } else if(GAME_JOINED_REGEX.test(data)){
-                        DiscordWrapper.updateDetails('Sailing to Westeros!')
+                        DiscordWrapper.updateDetails('Finding The Key of Twilight!')
                     }
                 }
 
@@ -674,7 +674,7 @@ function dlAsync(login = true){
                     data = data.trim()
                     if(data.indexOf('Could not find or load main class net.minecraft.launchwrapper.Launch') > -1){
                         loggerLaunchSuite.error('Game launch failed, LaunchWrapper was not downloaded properly.')
-                        showLaunchFailure('Error During Launch', 'The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href="https://github.com/dscalzi/ElectronLauncher/issues">submit an issue</a> and let us know what antivirus software you use. We\'ll contact them and try to straighten things out.')
+                        showLaunchFailure('Error During Launch', 'The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href="https://github.com/AzureZhen/rcraftlauncher/issues">submit an issue</a> and let us know what antivirus software you use. We\'ll contact them and try to straighten things out.')
                     }
                 }
 

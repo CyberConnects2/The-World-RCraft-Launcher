@@ -4,3 +4,7 @@
 /target/
 /logs/
 /dist/
+
+app/assets/js/cyberconnects2.js
+app/assets/js/authmanager.js
+app/assets/distribution.json

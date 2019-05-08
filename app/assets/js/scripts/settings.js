@@ -425,7 +425,7 @@ function populateAuthAccounts(){
         const acc = authAccounts[val]
         authAccountStr += `<div class="settingsAuthAccount" uuid="${acc.uuid}">
             <div class="settingsAuthAccountLeft">
-                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="https://crafatar.com/renders/body/${acc.uuid}?scale=3&default=MHF_Steve&overlay">
+                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="http://www.cyberconnects2.com/games/rcraft/skins/test/3d.php?login=${acc.displayName}">
             </div>
             <div class="settingsAuthAccountRight">
                 <div class="settingsAuthAccountDetails">
@@ -1200,7 +1200,7 @@ function populateAboutVersionInformation(){
  */
 function populateReleaseNotes(){
     $.ajax({
-        url: 'https://github.com/dscalzi/ElectronLauncher/releases.atom',
+        url: 'https://github.com/AzureZhen/rcraftlauncher/releases.atom',
         success: (data) => {
             const version = 'v' + remote.app.getVersion()
             const entries = $(data).find('entry')

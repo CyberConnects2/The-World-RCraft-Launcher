@@ -6,7 +6,7 @@ const logger = require('./loggerutil')('%c[ConfigManager]', 'color: #a02d2a; fon
 
 const sysRoot = process.env.APPDATA || (process.platform == 'darwin' ? process.env.HOME + '/Library/Application Support' : process.env.HOME)
 // TODO change
-const dataPath = path.join(sysRoot, '.westeroscraft')
+const dataPath = path.join(sysRoot, '.rcraft')
 
 // Forked processes do not have access to electron, so we have this workaround.
 const launcherDir = process.env.CONFIG_DIRECT_PATH || require('electron').remote.app.getPath('userData')
@@ -45,7 +45,7 @@ const firstLaunch = !fs.existsSync(configPath) && !fs.existsSync(configPathLEGAC
 
 exports.getAbsoluteMinRAM = function(){
     const mem = os.totalmem()
-    return mem >= 6000000000 ? 3 : 2
+    return mem >= 6000000000 ? 1 : 2
 }
 
 exports.getAbsoluteMaxRAM = function(){
@@ -56,7 +56,7 @@ exports.getAbsoluteMaxRAM = function(){
 
 function resolveMaxRAM(){
     const mem = os.totalmem()
-    return mem >= 8000000000 ? '4G' : (mem >= 6000000000 ? '3G' : '2G')
+    return mem >= 8000000000 ? '4G' : (mem >= 6000000000 ? '1G' : '1G')
 }
 
 function resolveMinRAM(){

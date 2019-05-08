@@ -106,7 +106,7 @@ body, button {
 
 /* Frame logo (windows only). */
 #frameImageDock {
-    width: 100px;
+    width: 155px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +114,6 @@ body, button {
 }
 #frameImage {
     height: 15px;
-    filter: grayscale(100%);
 }
 
 /* Windows frame button dock. */
@@ -275,12 +274,8 @@ body, button {
 */
 
 #welcomeImageSeal {
-    border-radius: 50%;
-    border: 2px solid #cad7e1;
-    background: rgba(1, 2, 1, 0.5);
     height: 125px;
     width: 125px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     margin-bottom: 5%;
     margin-top: 10%;
 }
@@ -488,13 +483,10 @@ body, button {
 
 /* Logo on login form. */
 #loginImageSeal {
-    border-radius: 50%;
-    border: 2px solid #cad7e1;
-    background: rgba(1, 2, 1, 0.5);
     height: 125px;
     width: 125px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+	padding-left: 10px;
 }
 
 /* Header on login view. */
@@ -2791,13 +2783,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile avatar container. */
 #avatarContainer {
-    border-radius: 50%;
-    border: 2px solid #cad7e1;
-    box-sizing: border-box;
-    background: rgba(1, 2, 1, 0.5);
     height: 70px;
     width: 70px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     overflow: hidden;
     position: relative;
     background-position: center;
@@ -2818,11 +2805,9 @@ input:checked + .toggleSwitchSlider:before {
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0.35);
     -webkit-user-select: none;
-    border: none;
     cursor: pointer;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
 }
 #avatarOverlay:hover,
 #avatarOverlay:focus {

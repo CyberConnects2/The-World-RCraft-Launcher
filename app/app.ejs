@@ -1,7 +1,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8" http-equiv="Content-Security-Policy" content="script-src 'self' 'sha256-In6B8teKZQll5heMl9bS7CESTbGvuAt3VVV86BUQBDk='"/>
-    <title>Westeroscraft Launcher</title>
+    <meta charset="utf-8" http-equiv="Content-Security-Policy" content="script-src 'self'"/>
+    <title>The World RCraft Launcher</title>
     <script src="./assets/js/scripts/uicore.js"></script>
     <script src="./assets/js/scripts/uibinder.js"></script>
     <link type="text/css" rel="stylesheet" href="./assets/css/launcher.css">
@@ -38,16 +38,9 @@
     <div id="loadingContainer">
         <div id="loadingContent">
             <div id="loadSpinnerContainer">
-                <img id="loadCenterImage" src="assets/images/westeroscraftlogo1.png">
-                <img id="loadSpinnerImage" class="rotating" src="assets/images/westeroscraftlogo2.png">
+                <img id="loadSpinnerImage" class="rotating" src="assets/images/rcraftlogo2.png">
             </div>
         </div>
     </div>
-    <script>
-        // Load language
-        for(let key of Object.keys(Lang.query('html'))){
-            document.getElementById(key).innerHTML = Lang.query(`html.${key}`)
-        }
-    </script>
 </body>
 </html>
