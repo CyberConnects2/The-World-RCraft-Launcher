@@ -2,8 +2,6 @@
 
 <h1 align="center">The World R:Craft Launcher</h1>
 
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
-
 ![Screenshot 1](https://i.imgur.com/U1yZ41J.png)
 
 ## Features
