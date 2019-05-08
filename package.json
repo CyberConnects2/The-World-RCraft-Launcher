@@ -1,13 +1,13 @@
 {
   "name": "rcraftlauncher",
-  "version": "1.0.2",
+  "version": "1.6.1",
   "productName": "The World RCraft Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/AzureZhen/rcraftlauncher",
+  "homepage": "https://github.com/AzureZhen/ElectronLauncher/",
   "bugs": {
-    "url": "https://github.com/AzureZhen/rcraftlauncher/issues"
+    "url": "https://github.com/AzureZhen/ElectronLauncher/issues"
   },
   "private": true,
   "main": "index.js",
