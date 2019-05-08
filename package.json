@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AzureZhen/rcraftlauncher.git"
+    "url": "git+https://github.com/AzureZhen/ElectronLauncher.git"
   },
   "build": {
     "appId": "rcraftlauncher",
