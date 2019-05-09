@@ -14,6 +14,7 @@
 * 📰 News feed natively built into the launcher.
 * ⚙️ Intuitive settings management, including a Java control panel.
 * View the player count of the RCraft server.
+* Automatic updates. That's right, the launcher updates itself.
 
 #### Like the project? Leave a ⭐ star on the repository!
 
