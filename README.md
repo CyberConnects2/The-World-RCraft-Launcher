@@ -26,8 +26,8 @@ If you download from the [Releases](https://github.com/dscalzi/ElectronLauncher/
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `The World RCraft Launcher-setup-VERSION.exe` |
-| Linux x64 | `The World RCraft Launcher-VERSION-x86_64.AppImage` |
+| Windows x64 | `rcraftlauncher-setup.exe` |
+| Linux x64 | `rcraftlauncher-x86_64.AppImage` |
 
 ## Console
 
