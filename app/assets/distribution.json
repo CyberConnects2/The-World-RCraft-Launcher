@@ -43696,12 +43696,11 @@
                        }
                },
                {
-                       "id":"rcraft.files:00004355:2019-05-05",
+                       "id":"rcraft.files:00004355:2019-05-21",
                        "name":"blockbuster-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"772181",
-                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/blockbuster-1.6-1.12.2-dev15.jar"
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/blockbuster-1.6-1.12.2.jar"
                        }
                },
                {
@@ -43759,12 +43758,12 @@
                        }
                },
                {
-                       "id":"rcraft.files:00004362:2019-05-17",
+                       "id":"rcraft.files:00004362:2019-05-21-1",
                        "name":"dotHackWeapons-1",
                        "type": "ForgeMod",
                        "artifact":{
                                "size":"9199796",
-                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/dotHackWeapons-1.4.0.jar"
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/dotHackWeapons-1.5.1.jar"
                        }
                },
                {
@@ -43772,7 +43771,6 @@
                        "name":"Electroblob's+Wizardry+-+4",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"2803188",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/Electroblobs+Wizardry+-+4.1.4+-+MC+1.12.2.jar"
                        }
                },
@@ -43781,7 +43779,6 @@
                        "name":"ExtraSpells-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"81891",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/ExtraSpells-1.12.2-1.0.3.jar"
                        }
                },
@@ -43790,7 +43787,6 @@
                        "name":"Forgelin-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"3984198",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/Forgelin-1.6.0.jar"
                        }
                },
@@ -43799,7 +43795,6 @@
                        "name":"FpsReducer-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"38633",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/FpsReducer-1.12.2-1.9.jar"
                        }
                },
@@ -43808,7 +43803,6 @@
                        "name":"FullscreenWindowed-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"18396",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/FullscreenWindowed-1.12-1.6.0.jar"
                        }
                },
@@ -43817,7 +43811,6 @@
                        "name":"HungerStrike-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"33587",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/HungerStrike-1.12-1.0.8.jar"
                        }
                },
@@ -43826,7 +43819,6 @@
                        "name":"IronBackpacks-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"465363",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/IronBackpacks-1.12.2-3.0.8-12.jar"
                        }
                },
@@ -43835,7 +43827,6 @@
                        "name":"JoypadMod+-+1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"3385130",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/JoypadMod+-+1.12.2.jar"
                        }
                },
@@ -43844,7 +43835,6 @@
                        "name":"justthetips-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"334035",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/justthetips-1.12-1.0.1.1.jar"
                        }
                },
@@ -43853,7 +43843,6 @@
                        "name":"lightair-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"58031",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/lightair-1.12-2.2.jar"
                        }
                },
@@ -43862,7 +43851,6 @@
                        "name":"LittleTiles_v1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"1184851",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/LittleTiles_v1.5.0-pre122_mc1.12.2.jar"
                        }
                },
@@ -43871,35 +43859,31 @@
                        "name":"LycanitesMobsComplete+1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"63045505",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/LycanitesMobsComplete+1.20.5.2+[1.12.2].jar"
                        }
                },
                {
-                       "id":"rcraft.files:00004375:2019-04-21",
+                       "id":"rcraft.files:00004375:2019-05-21",
                        "name":"mclib-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"85722",
-                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/mclib-1.0.1-1.12.2-dev11.jar"
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/mclib-1.0.1-1.12.2.jar"
                        }
                },
                {
-                       "id":"rcraft.files:00004376:2019-04-21",
+                       "id":"rcraft.files:00004376:2019-05-21",
                        "name":"metamorph-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"232405",
-                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/metamorph-1.1.8-1.12.2-dev11.jar"
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/metamorph-1.1.8-1.12.2.jar"
                        }
                },
                {
-                       "id":"rcraft.files:00004377:2019-05-18",
+                       "id":"rcraft.files:00004377:2019-05-20-1",
                        "name":"Mine+and+Slash-1",
                        "type": "ForgeMod",
                        "artifact":{
-                               "size":"2651626",
-                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/Mine_and_Slash-1.6.11.jar"
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/Mine_and_Slash-1.6.12.jar"
                        }
                },
                {
@@ -53912,6 +53896,23 @@
                        "artifact":{
                                "path":"liteconfig/common/TabbyChat2/multiplayer/rcraft.cyberconnects2.com(25565)/server.json",
                                "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/liteconfig/common/TabbyChat2/multiplayer/rcraft.cyberconnects2.com(25565)/server.json"
+                       }
+               },
+               {
+                       "id":"rcraft.files:00005381:2019-05-20",
+                       "name":"CraftTweaker2-1",
+                       "type": "ForgeMod",
+                       "artifact":{
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/CraftTweaker2-1.12-4.1.17.jar"
+                       }
+               },
+               {
+                       "id":"rcraft.files:00005382:2019-05-21",
+                       "name":"VoxelMap-litemod",
+                       "type":"file",
+                       "artifact":{
+                               "path":"mods/1.12.2/mod_voxelMap_1.7.1_for_1.12.2.litemod",
+                               "url":"http://cc2web.cyberconnects2.com/games/updates/rcraft/GameFiles/src/mods/1.12.2/mod_voxelMap_1.7.1_for_1.12.2.litemod"
                        }
                }
             ]
