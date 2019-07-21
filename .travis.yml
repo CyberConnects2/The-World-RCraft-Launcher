@@ -21,7 +21,14 @@ cache:
   - node_modules
   - $HOME/.cache/electron
   - $HOME/.cache/electron-builder
-
+deploy:
+  provider: releases
+  api_key: "8d8d88f32dd53206c232f0c8491e816e83494443"
+  file: "rcraftlauncher.dmg"
+  skip_cleanup: true
+  on:
+    tags: true
+    
 script:
   - |
     if [ "$TRAVIS_OS_NAME" == "linux" ]; then
