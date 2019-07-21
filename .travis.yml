@@ -27,7 +27,7 @@ deploy:
   file: "rcraftlauncher.dmg"
   skip_cleanup: true
   on:
-    tags: true
+    tags: false
     
 script:
   - |
