@@ -2,7 +2,7 @@
 
 <h1 align="center">The World R:Craft Launcher</h1>
 
-![Screenshot 1](https://i.imgur.com/U1yZ41J.png)
+![Screenshot 1](https://i.imgur.com/6nPJpGg.png)
 
 ## Features
 
@@ -11,9 +11,8 @@
 * 📂 Efficient asset management.
   * Receive client updates as soon as we release them.
   * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
-* 📰 News feed natively built into the launcher.
 * ⚙️ Intuitive settings management, including a Java control panel.
-* View the player count of the RCraft server.
+* View the player count of The World R:Craft server.
 * Automatic updates. That's right, the launcher updates itself.
 
 ## Downloads
@@ -22,12 +21,13 @@ You can download from [GitHub Releases](https://github.com/AzureZhen/ElectronLau
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/dscalzi/ElectronLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/AzureZhen/ElectronLauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `rcraftlauncher-setup.exe` |
-| Linux x64 | `rcraftlauncher-x86_64.AppImage` |
+| Windows x64 | `rcraftlauncher.exe` |
+| Linux | `rcraftlauncher.AppImage` |
+| macOS | `rcraftlauncher.dmg` |
 
 ## Console
 
