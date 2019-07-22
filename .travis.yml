@@ -23,6 +23,7 @@ cache:
   - $HOME/.cache/electron-builder
 deploy:
   provider: releases
+  api_key: f3e57d43a98228310ae4a44126a0a917c8eccd6e
   file: "rcraftlauncher.dmg"
   skip_cleanup: true
   on:
