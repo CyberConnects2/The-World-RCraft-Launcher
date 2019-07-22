@@ -24,7 +24,14 @@ deploy:
   api_key:
     secure: m/whfT0XX+v9q1vgnpDNgDWv5MuCsKb3+NYUtusFq4dw+q+8TAoE2GnTi985usxLQ2rYE33sdrvh/EHFcQIMWnqcWhBW8oHRcX+BykeLHAiRkg1WPZnRVzaSEo3Gr4MuJqBV/Pv4QTPklzLJ7ybR7Z6obaf4haH2NnyVKHUapZ0E5OX37ZNlYl30uO2JOWyXrO679eWMQUahI0RAM47e7Iwm2yDbjXa8AhCJsBgDsHHSc30d85bIoLEkubwPqkkBwwNKkZEmf0+V3qBe9gbrUyDAnt81yB8G6zPo3gP4ZC0YDTwJKM6IfK8+j/GbY/GNpP+F6x6YEN3NcVZtpgU345+cw9FtDVP1OCe/rNJGkUdTYBhGc8vtx+mH5hzrODScigbgeLf0MkZSmXIs8sK7czuUf6oxzCIBTQdSpRnPRbUfVDhpKS6sw7hmO2xLfVmeypMCtSRiZ11JcCQkcnDsrse/KkQgngaeO3SWiE2Xt9g/IjQZeAShxYh3JYZCLh6HwQD7S1fQo9VFwFdBu3EQOdIIYQ5UuNXheJ/14pRaTHZbrUNNm2sCZGIztUnUCJiLIx03OzZTc3U/3ycMG6Smz9Q2vua4axnC8ozDUKtlGeLR8nQXY3dGL956MFqt9kK5gkD2utnTykowxpz8oewCy1HTSxtNL/uXcUoZ/GxoD34=
   file_glob: true
-  file: dist/*
+  file: 
+   - dist/rcraftlauncher.dmg
+   - dist/latest-mac.yml
+   - dist/rcraftlauncher.AppImage
+   - dist/latest-linux.yml
+   - dist/latest.yml
+   - dist/rcraftlauncher.exe
+  skip_cleanup: true
   on:
     repo: AzureZhen/ElectronLauncher
 script:
