@@ -537,7 +537,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'https://thecollectiveofaveragegamers.com/zhens/distribution.jsonn'
+        const distroURL = 'https://thecollectiveofaveragegamers.com/zhens/distribution.json'
         //const distroURL = 'https://thecollectiveofaveragegamers.com/zhens/distribution.json'
         const opts = {
             url: distroURL,
