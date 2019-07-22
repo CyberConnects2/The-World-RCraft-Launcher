@@ -9,11 +9,9 @@
                     <button class="settingsNavItem" rSc="settingsTabAccount" id="settingsNavAccount" selected>Account</button>
                     <button class="settingsNavItem" rSc="settingsTabMinecraft">Minecraft</button>
                     <button class="settingsNavItem" rSc="settingsTabMods">Mods</button>
-                    <button class="settingsNavItem" rSc="settingsTabJava">Java</button>
-                    <button class="settingsNavItem" rSc="settingsTabLauncher">Launcher</button>
+                    <button class="settingsNavItem" rSc="settingsTabJava">Launcher</button>
                     <div class="settingsNavSpacer"></div>
                     <button class="settingsNavItem" rSc="settingsTabAbout">About</button>
-                    <button class="settingsNavItem" rSc="settingsTabUpdate" id="settingsNavUpdate">Updates</button>
                     <div id="settingsNavContentBottom">
                         <div class="settingsNavDivider"></div>
                         <button id="settingsNavDone">Done</button>
@@ -140,8 +138,8 @@
         </div>
         <div id="settingsTabJava" class="settingsTab" style="display: none;">
             <div class="settingsTabHeader">
-                <span class="settingsTabHeaderText">Java Settings</span>
-                <span class="settingsTabHeaderDesc">Manage the Java configuration (advanced).</span>
+                <span class="settingsTabHeaderText">Launcher Settings</span>
+                <span class="settingsTabHeaderDesc">Options related to the launcher itself.</span>
             </div>
             <div id="settingsMemoryContainer">
                 <div id="settingsMemoryTitle">Memory</div>
@@ -183,6 +181,26 @@
                     </div>
                 </div>
             </div>
+            <div class="settingsFileSelContainer">
+                    <div class="settingsFileSelContent">
+                        <div class="settingsFieldTitle" id="settingsDataDirTitle">Data Directory</div>
+                        <div class="settingsFileSelActions">
+                            <div class="settingsFileSelIcon">
+                                <svg class="settingsFileSelSVG">
+                                    <g>
+                                        <path fill="gray" d="m10.044745,5c0,0.917174 -0.746246,1.667588 -1.667588,1.667588l-4.168971,0l-2.501382,0c-0.921009,0 -1.667588,0.750415 -1.667588,1.667588l0,6.670353l0,2.501382c0,0.917174 0.746604,1.667588 1.667588,1.667588l16.675882,0c0.921342,0 1.667588,-0.750415 1.667588,-1.667588l0,-2.501382l0,-8.337941c0,-0.917174 -0.746246,-1.667588 -1.667588,-1.667588l-8.337941,0z"/>
+                                        <path fill="gray" d="m1.627815,1.6c-0.921009,0 -1.667588,0.746579 -1.667588,1.667588l0,4.168971l8.337941,0l0,0.833794l11.673118,0l0,-4.168971c0,-0.921009 -0.746246,-1.667588 -1.667588,-1.667588l-8.572237,0c-0.288493,-0.497692 -0.816284,-0.833794 -1.433292,-0.833794l-6.670353,0z"/>
+                                        <path fill="lightgray" d="m10.025276,4c0,0.918984 -0.747719,1.670879 -1.670879,1.670879l-4.177198,0l-2.506319,0c-0.922827,0 -1.670879,0.751896 -1.670879,1.670879l0,6.683517l0,2.506319c0,0.918984 0.748078,1.670879 1.670879,1.670879l16.708794,0c0.923161,0 1.670879,-0.751896 1.670879,-1.670879l0,-2.506319l0,-8.354397c0,-0.918984 -0.747719,-1.670879 -1.670879,-1.670879l-8.354397,0z"/>
+                                    </g>
+                                </svg>
+                            </div>
+                            <input class="settingsFileSelVal" type="text" value="null" cValue="DataDirectory" disabled>
+                            <input class="settingsFileSelSel" id="settingsDataDirSel" type="file" webkitdirectory>
+                            <label class="settingsFileSelLabel" for="settingsDataDirSel">Choose Folder</label>
+                        </div>
+                    </div>
+                    <div class="settingsFileSelDesc">All game files and local Java installations will be stored in the data directory.<br>Screenshots and world saves are stored in the instance folder for the corresponding server configuration.</div>
+                </div>
             <div class="settingsFileSelContainer">
                 <div class="settingsFileSelTitle">Java Executable</div>
                 <div class="settingsFileSelContent">
@@ -285,7 +303,25 @@
                     <a href="https://discord.gg/BpU8C77" id="settingsAboutSupportButton" class="settingsAboutButton">Support</a>
                     <a href="#" id="settingsAboutDevToolsButton" class="settingsAboutButton">DevTools Console</a>
                 </div>
-            </div>
+                    <div id="settingsUpdateStatusContent">
+                        <div id="settingsUpdateStatusHeadline">
+                            <span id="settingsUpdateTitle">You Are Running the Latest Version</span>
+                        </div>
+                        <div id="settingsUpdateVersion">
+                            <div id="settingsUpdateVersionCheck">&#10003;</div>
+                            <div id="settingsUpdateVersionDetails">
+                                <span id="settingsUpdateVersionTitle">Stable Release</span>
+                                <div id="settingsUpdateVersionLine">
+                                    <span id="settingsUpdateVersionText">Version </span>
+                                    <span id="settingsUpdateVersionValue">0.0.1-alpha.18</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="settingsUpdateActionContainer">
+                            <button id="settingsUpdateActionButton">Check for Updates</button>
+                        </div>
+                    </div>
+                </div>
             <div class="settingsChangelogContainer">
                 <div class="settingsChangelogContent">
                     <div class="settingsChangelogHeadline">
