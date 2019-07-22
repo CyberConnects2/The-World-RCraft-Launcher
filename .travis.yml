@@ -1,51 +1,47 @@
 matrix:
   include:
-    - os: osx
-      osx_image: xcode11
-      language: node_js
-      node_js: "12"
-      env:
-        - ELECTRON_CACHE=$HOME/.cache/electron
-        - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
-        - ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true
-        - CSC_IDENTITY_AUTO_DISCOVERY=false
-
-    - os: linux
-      services: docker
-      language: generic
-      env:
-        - ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true
-
+  - os: osx
+    osx_image: xcode11
+    language: node_js
+    node_js: '12'
+    env:
+    - ELECTRON_CACHE=$HOME/.cache/electron
+    - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
+    - ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true
+    - CSC_IDENTITY_AUTO_DISCOVERY=false
+  - os: linux
+    services: docker
+    language: generic
+    env:
+    - ELECTRON_BUILDER_ALLOW_UNRESOLVED_DEPENDENCIES=true
 cache:
   directories:
   - node_modules
-  - $HOME/.cache/electron
-  - $HOME/.cache/electron-builder
+  - "$HOME/.cache/electron"
+  - "$HOME/.cache/electron-builder"
 deploy:
   provider: releases
-  api_key: f3e57d43a98228310ae4a44126a0a917c8eccd6e
-  file: "rcraftlauncher.dmg"
-  skip_cleanup: true
+  api_key:
+    secure: m/whfT0XX+v9q1vgnpDNgDWv5MuCsKb3+NYUtusFq4dw+q+8TAoE2GnTi985usxLQ2rYE33sdrvh/EHFcQIMWnqcWhBW8oHRcX+BykeLHAiRkg1WPZnRVzaSEo3Gr4MuJqBV/Pv4QTPklzLJ7ybR7Z6obaf4haH2NnyVKHUapZ0E5OX37ZNlYl30uO2JOWyXrO679eWMQUahI0RAM47e7Iwm2yDbjXa8AhCJsBgDsHHSc30d85bIoLEkubwPqkkBwwNKkZEmf0+V3qBe9gbrUyDAnt81yB8G6zPo3gP4ZC0YDTwJKM6IfK8+j/GbY/GNpP+F6x6YEN3NcVZtpgU345+cw9FtDVP1OCe/rNJGkUdTYBhGc8vtx+mH5hzrODScigbgeLf0MkZSmXIs8sK7czuUf6oxzCIBTQdSpRnPRbUfVDhpKS6sw7hmO2xLfVmeypMCtSRiZ11JcCQkcnDsrse/KkQgngaeO3SWiE2Xt9g/IjQZeAShxYh3JYZCLh6HwQD7S1fQo9VFwFdBu3EQOdIIYQ5UuNXheJ/14pRaTHZbrUNNm2sCZGIztUnUCJiLIx03OzZTc3U/3ycMG6Smz9Q2vua4axnC8ozDUKtlGeLR8nQXY3dGL956MFqt9kK5gkD2utnTykowxpz8oewCy1HTSxtNL/uXcUoZ/GxoD34=
+   file_glob: true
+  file: dist/*
   on:
-    tags: false
-    
+    repo: AzureZhen/ElectronLauncher
 script:
-  - |
-    if [ "$TRAVIS_OS_NAME" == "linux" ]; then
-      ENVS=`env | grep -iE '(DEBUG|NODE_|ELECTRON_|YARN_|NPM_|CI|CIRCLE|TRAVIS|APPVEYOR_|CSC_|_TOKEN|_KEY|AWS_|STRIP|BUILD_)' | sed -n '/^[^\t]/s/=.*//p' | sed '/^$/d' | sed 's/^/-e /g' | tr '\n' ' '`
-      docker run $ENVS --rm \
-        -v ${PWD}:/project \
-        -v ~/.cache/electron:/root/.cache/electron \
-        -v ~/.cache/electron-builder:/root/.cache/electron-builder \
-        electronuserland/builder:wine \
-        /bin/bash -c "node -v && npm ci && npm run cilinux"
-    else
-      npm run cidarwin
-    fi
-
+- |
+  if [ "$TRAVIS_OS_NAME" == "linux" ]; then
+    ENVS=`env | grep -iE '(DEBUG|NODE_|ELECTRON_|YARN_|NPM_|CI|CIRCLE|TRAVIS|APPVEYOR_|CSC_|_TOKEN|_KEY|AWS_|STRIP|BUILD_)' | sed -n '/^[^\t]/s/=.*//p' | sed '/^$/d' | sed 's/^/-e /g' | tr '\n' ' '`
+    docker run $ENVS --rm \
+      -v ${PWD}:/project \
+      -v ~/.cache/electron:/root/.cache/electron \
+      -v ~/.cache/electron-builder:/root/.cache/electron-builder \
+      electronuserland/builder:wine \
+      /bin/bash -c "node -v && npm ci && npm run cilinux"
+  else
+    npm run cidarwin
+  fi
 before_cache:
-  - rm -rf $HOME/.cache/electron-builder/wine
-
+- rm -rf $HOME/.cache/electron-builder/wine
 branches:
   except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
