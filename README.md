@@ -17,10 +17,6 @@
 
 ## Downloads
 
-You can download from [GitHub Releases](https://github.com/AzureZhen/ElectronLauncher/releases)
-
-**Supported Platforms**
-
 If you download from the [Releases](https://github.com/AzureZhen/ElectronLauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
