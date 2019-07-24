@@ -1,9 +1,10 @@
 {
   "name": "rcraftlauncher",
-  "version": "1.6.8",
+  "version": "1.6.9",
   "productName": "The World RCraft Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "description": "Electron Based Launcher For The World RCraft",
+  "author": "AzureZhen (https://github.com/AzureZhen/)",
+  "sourceauthor": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/AzureZhen/ElectronLauncher/",
   "bugs": {
