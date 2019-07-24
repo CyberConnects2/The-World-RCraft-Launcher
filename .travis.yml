@@ -31,6 +31,7 @@ deploy:
    - dist/latest-linux.yml
    - dist/latest.yml
    - dist/rcraftlauncher.exe
+   - rcraftlauncher.exe.blockmap
   skip_cleanup: true
   on:
     repo: AzureZhen/ElectronLauncher
