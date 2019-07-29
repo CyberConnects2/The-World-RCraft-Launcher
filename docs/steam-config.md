@@ -25,5 +25,12 @@ The launcher can be added to Steam as a non-Steam game. Grab the Steam grid abov
 > [!NOTE]
 > The launcher needs to stay open while the game is running. If the launcher is closed while the game is running, the controller may not work.
 
+> [!TIP]
+> By default, you can flick the left stick twice to sprint. This is same true for tapping W twice.
+> <img height="25" style="vertical-align:middle" src="img/controls/x360/360_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_U.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_X.png"> also can be used as a right-click.
+> <img height="25" style="vertical-align:middle" src="img/controls/x360/360_RT.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_R2.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_RT.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_R2.png"> also can be used as left-click.
+> <img height="25" style="vertical-align:middle" src="img/controls/x360/360_Right_Stick.png">/<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Right_Track.png"> also can be used as a mouse.
+> All controls can be edited by right-clicking the game while on Steam and click "Edit Steam Controller Configuration...".
+
 > [!WARNING]
 > Do not bind the X360 buttons to your controller while using this game in Steam. It might will not work well, since the mod Joypad in-game is weird.
