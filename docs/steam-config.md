@@ -1,6 +1,6 @@
 # Steam Controller Configuration
 
-![](https://imgur.com/Kwm3HEk)
+![](https://i.imgur.com/Kwm3HEk.png)
 [Official Steam Grid Image](https://imgur.com/Kwm3HEk)
 
 The launcher can be added to Steam as a non-Steam game. Grab the Steam grid above (click on it) to use as a custom grid on Steam as well! This section is useful for players who want to play The World R:Craft with controllers instead of bashing their head on controller config in-game or messing around with third-party software such as DS4Windows. Out of all the third-party software availability, Steam is probably the best for its controller configuration. What it does is to emulate the X360, keyboard/mouse, or both profiles into the controller (Steam, Xbox, Dualshock, Switch Pro, and other generic controllers) to be usable in most games that use DirectX9 and above. Thankfully, The World R:Craft is one of them! However, for this game, we will use keyboard/mouse binds instead so the controller will work as smooth as it would in every other game.
