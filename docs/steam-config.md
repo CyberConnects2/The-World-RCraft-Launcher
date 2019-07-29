@@ -1,10 +1,2 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+# Steam Controller Configuration
 
-<body>
-</body>
-</html>
