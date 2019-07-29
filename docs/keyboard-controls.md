@@ -1,37 +1,16 @@
 # Basic Keyboard Controls
 
-<table style="table-layout:fixed;width:100%;word-break:break-all;text-aligin:center;font-size:12px">
-	<tr>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_ESC.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F1.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F2.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F3.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F4.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F5.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F6.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F7.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F8.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F9.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F10.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F11.png"></th>
-		<td><img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F12.png"></th>
-	</tr>
-	<tr>
-		<td>Escape Menu</th>
-		<td>Hide UI</th>
-		<td>Screenshot</th>
-		<td>[Empty]</th>
-		<td>[Empty]</th>
-		<td>Camera Perspective</th>
-		<td>[Empty]</th>
-		<td>[Empty]</th>
-		<td>Mouse Smoothing</th>
-		<td>[Empty]</th>
-		<td>[Empty]</th>
-		<td>Fullscreen Toggle</th>
-		<td>[Empty]</th>
-	</tr>
-</table>
+<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_ESC.png"> Escape
+
+<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F1.png"> Hide UI
+
+<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F2.png"> Screenshot
+
+<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F5.png"> Camera Perspective
+
+<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F8.png"> Mouse Smoothing
+
+<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F11.png"> Fullscreen Toggle
 
 <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_1.png"> - <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_9.png"> Hotkeys
 

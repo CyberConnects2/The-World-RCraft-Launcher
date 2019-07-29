@@ -10,9 +10,9 @@
 	
 * Gameplay & Features
 	- [Basic Keyboard Controls](keyboard-controls.md)
-	- [Basic Controller Controls](gamepad-controls.md)
+	- [Basic Controller Controls](controller-controls.md)
 	- [Skin Changer](skin-changer.md)
 	
 * Optional
 	- [Steam Controller Configuration](steam-config.md)
-	- [Steam Controller Profiles](steam-profiles.md)
+	- [Steam Controller Profiles](steam-controls.md)
