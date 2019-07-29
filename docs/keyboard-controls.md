@@ -1,16 +1,16 @@
 # Basic Keyboard Controls
 
-<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_ESC.png"> Escape
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_ESC.png"> Escape
 
-<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F1.png"> Hide UI
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_F1.png"> Hide UI
 
-<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F2.png"> Screenshot
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_F2.png"> Screenshot
 
-<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F5.png"> Camera Perspective
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_F5.png"> Camera Perspective
 
-<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F8.png"> Mouse Smoothing
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_F8.png"> Mouse Smoothing
 
-<img height="40" style="vertical-align:middle" src="img/controls/keyboard/key_F11.png"> Fullscreen Toggle
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_F11.png"> Fullscreen Toggle
 
 <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_1.png"> - <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_9.png"> Hotkeys
 
