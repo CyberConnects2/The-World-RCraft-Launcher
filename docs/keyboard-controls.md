@@ -36,6 +36,8 @@
 
 <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_SHIFT.png"> Sneak
 
+<img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_F.png"> Secondary Hand
+
 <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_R.png"> Player Menu
 
 <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_E.png"> Inventory
