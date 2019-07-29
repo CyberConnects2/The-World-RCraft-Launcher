@@ -26,7 +26,7 @@ The launcher can be added to Steam as a non-Steam game. Grab the Steam grid abov
 > The launcher needs to stay open while the game is running. If the launcher is closed while the game is running, the controller may not work.
 
 > [!TIP]
-> By default, you can flick the left stick twice to sprint. This is same true for tapping W twice.<br>
+> By default, you can flick the <img height="25" style="vertical-align:middle" src="img/controls/x360/360_Left_Stick.png"> twice to sprint. This is same true for tapping <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_W.png"> twice.<br>
 > <img height="25" style="vertical-align:middle" src="img/controls/x360/360_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_U.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_Square.png"> also can be used as a right-click.<br>
 > <img height="25" style="vertical-align:middle" src="img/controls/x360/360_RT.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_R2.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_RT.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_R2.png"> also can be used as left-click.<br>
 > <img height="25" style="vertical-align:middle" src="img/controls/x360/360_Right_Stick.png">/<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Right_Track.png"> also can be used as a mouse.<br>
