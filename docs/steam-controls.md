@@ -1,6 +1,6 @@
 # Steam Controller Profiles
 
-![](img/steam-layout.png)<br>
+![](img/controls/steam-layout.png)<br>
 Steam Controller
 
 <img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_A.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_SPACE.png"> Jump 
@@ -39,32 +39,32 @@ Steam Controller
 
 <img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_RT.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_CLICK-L.png"> Attack
 
-![](img/xbox360-layout.png)<br>
+![](img/controls/xbox360-layout.png)<br>
 Xbox 360 Controller
 
 Work-In-Progess
 
-![](img/xboxone-layout.png)<br>
+![](img/controls/xboxone-layout.png)<br>
 Xbox One Controller
 
 Work-In-Progess
 
-![](img/ps3-layout.png)<br>
+![](img/controls/ps3-layout.png)<br>
 Dualshock 2 / 3 (Playstation 2 / 3 Controller)
 
 Work-In-Progess
 
-![](img/ps4-layout.png)<br>
+![](img/controls/ps4-layout.png)<br>
 Dualshock 4 (Playstation 4 Controller)
 
 Work-In-Progess
 
-![](img/switchpro-layout.png)<br>
+![](img/controls/switchpro-layout.png)<br>
 Switch Pro Controller
 
 Work-In-Progess
 
-![](img/ouya-layout.png)<br>
+![](img/controls/ouya-layout.png)<br>
 Ouya Controller
 
 Work-In-Progess
