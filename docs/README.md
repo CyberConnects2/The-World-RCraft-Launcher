@@ -1,0 +1,2 @@
+# Welcome
+Welcome to the official guide of The World R:Craft! It is written by Amarante and maintained by CyberConnects2 and The World R:Craft team. If you have any questions, please do not hesitate to ask on our discord server or forums.
