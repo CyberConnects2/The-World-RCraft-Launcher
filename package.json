@@ -1,14 +1,14 @@
 {
   "name": "rcraftlauncher",
-  "version": "1.6.9",
+  "version": "1.7.0",
   "productName": "The World RCraft Launcher",
   "description": "Electron Based Launcher For The World RCraft",
-  "author": "AzureZhen (https://github.com/AzureZhen/)",
+  "author": "CyberConnects2 (https://github.com/CyberConnects2)",
   "sourceauthor": "Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/AzureZhen/ElectronLauncher/",
+  "homepage": "https://github.com/CyberConnects2/TheWorldRCraftLauncher",
   "bugs": {
-    "url": "https://github.com/AzureZhen/ElectronLauncher/issues"
+    "url": "https://github.com/CyberConnects2/TheWorldRCraftLauncher/issues"
   },
   "private": true,
   "main": "index.js",
