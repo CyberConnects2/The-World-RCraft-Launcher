@@ -1,6 +1,6 @@
 # Steam Controller Configuration
 
-![](https://i.imgur.com/Kwm3HEk.png)
+![](https://i.imgur.com/Kwm3HEk.png)<br>
 [Official Steam Grid Image](https://imgur.com/Kwm3HEk)
 
 The launcher can be added to Steam as a non-Steam game. Grab the Steam grid above (click on it) to use as a custom grid on Steam as well! This section is useful for players who want to play The World R:Craft with controllers instead of bashing their head on controller config in-game or messing around with third-party software such as DS4Windows. Out of all the third-party software availability, Steam is probably the best for its controller configuration. What it does is to emulate the X360, keyboard/mouse, or both profiles into the controller (Steam, Xbox, Dualshock, Switch Pro, and other generic controllers) to be usable in most games that use DirectX9 and above. Thankfully, The World R:Craft is one of them! However, for this game, we will use keyboard/mouse binds instead so the controller will work as smooth as it would in every other game.
@@ -27,7 +27,7 @@ The launcher can be added to Steam as a non-Steam game. Grab the Steam grid abov
 
 > [!TIP]
 > By default, you can flick the left stick twice to sprint. This is same true for tapping W twice.
-> <img height="25" style="vertical-align:middle" src="img/controls/x360/360_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_U.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_X.png"> also can be used as a right-click.
+> <img height="25" style="vertical-align:middle" src="img/controls/x360/360_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_U.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_X.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_Square.png"> also can be used as a right-click.
 > <img height="25" style="vertical-align:middle" src="img/controls/x360/360_RT.png">/<img height="25" style="vertical-align:middle" src="img/controls/ouya/Ouya_R2.png">/<img height="25" style="vertical-align:middle" src="img/controls/switch/Switch_RT.png">/<img height="25" style="vertical-align:middle" src="img/controls/ps4/PS4_R2.png"> also can be used as left-click.
 > <img height="25" style="vertical-align:middle" src="img/controls/x360/360_Right_Stick.png">/<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Right_Track.png"> also can be used as a mouse.
 > All controls can be edited by right-clicking the game while on Steam and click "Edit Steam Controller Configuration...".
