@@ -2,15 +2,19 @@
 
 <h1 align="center">The World R:Craft Launcher</h1>
 
-![Screenshot 1](https://i.imgur.com/6nPJpGg.png)
+![Screenshot 1](https://i.imgur.com/dSURbet.png)
 
 ## Features
 
 * 🔒 Full account management.
   * Add multiple accounts and easily switch between them.
+  * Credentials are never stored.
 * 📂 Efficient asset management.
   * Receive client updates as soon as we release them.
   * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
+* ☕ **Automatic Java validation.**
+  * If you have an incompatible version of Java installed, we'll install the right one *for you*.
+  * You do not need to have Java installed to run the launcher.
 * ⚙️ Intuitive settings management, including a Java control panel.
 * View the player count of The World R:Craft server.
 * Automatic updates. That's right, the launcher updates itself.
