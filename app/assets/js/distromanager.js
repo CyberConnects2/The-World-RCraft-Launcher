@@ -537,7 +537,7 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'https://thecollectiveofaveragegamers.com/zhens/distribution.json'
+        const distroURL = 'http://cc2web.cyberconnects2.com/games/rcraft/distribution.json'
         //const distroURL = 'https://thecollectiveofaveragegamers.com/zhens/distribution.json'
         const opts = {
             url: distroURL,
