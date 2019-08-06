@@ -51,4 +51,4 @@ deploy:
    - dist/rcraftlauncher.exe
    - rcraftlauncher.exe.blockmap
   on:
-    tags: true
+    repo: CyberConnects2/TheWorldRCraftLauncher
