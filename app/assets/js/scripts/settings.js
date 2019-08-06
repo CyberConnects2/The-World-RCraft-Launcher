@@ -425,7 +425,7 @@ function populateAuthAccounts(){
         const acc = authAccounts[val]
         authAccountStr += `<div class="settingsAuthAccount" uuid="${acc.uuid}">
             <div class="settingsAuthAccountLeft">
-                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="http://www.cyberconnects2.com/games/rcraft/skins/test/3d.php?login=${acc.displayName}">
+                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="http://www.cyberconnects2.com/games/rcraft/skins/test/3d.php?ratio=116&login=${acc.displayName}">
             </div>
             <div class="settingsAuthAccountRight">
                 <div class="settingsAuthAccountDetails">
