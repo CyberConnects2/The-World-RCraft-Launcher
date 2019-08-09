@@ -7,6 +7,7 @@
 	- [Downloads](downloads.md)
 	- [Making an account](account.md)
 	- [Initialization](initialization.md)
+	- [Getting Started](gettingstarted.md)
 	
 * Gameplay & Features
 	- [Basic Keyboard Controls](keyboard-controls.md)
