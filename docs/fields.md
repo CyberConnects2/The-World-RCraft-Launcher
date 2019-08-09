@@ -2,20 +2,20 @@
 
 1. You can find the Quest Shop with free maps located here in Mac Anu R1.
 
-![alt](/img/gettingstarted/questshop.png)
+![alt](/img/field/questshop.png)
 
 2. Open the shop using the Interaction button where you will be presented with the shop menu.
 
-![alt](/img/gettingstarted/shopmenu.png)
+![alt](/img/field/shopmenu.png)
 
 3. After you get your map, simply head down to the Mac Anu Square where Mia is.
 
-![alt](/img/gettingstarted/macanusquare.png)
+![alt](/img/field/macanusquare.png)
 
 4. Right-click the Map Device block and put your map in the top and seeds in the bottom.
 
-![alt](/img/gettingstarted/mapdevice.png)
+![alt](/img/field/mapdevice.png)
 
 5. Now you can hop in the portal to travel the map and start killing!
 
-![alt](/img/gettingstarted/portal.png)
+![alt](/img/field/portal.png)
