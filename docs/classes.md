@@ -1,4 +1,4 @@
-# Initialization
+# Choosing your Class!
 
 1. Open Player Menu <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_R.png"> and hover "Choose Class" at the top then click.
 
