@@ -1,4 +1,5 @@
-# Basic Controller Controls
+Basic Controller Controls
+---
 
 <img height="25" style="vertical-align:middle" src="img/controls/x360/360_A.png"> Jump
 

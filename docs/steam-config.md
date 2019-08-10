@@ -1,4 +1,5 @@
-# Steam Controller Configuration
+Steam Controller Configuration
+---
 
 ![](https://i.imgur.com/Kwm3HEk.png)<br>
 [Official Steam Grid Image](https://imgur.com/Kwm3HEk)

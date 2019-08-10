@@ -1,4 +1,5 @@
-# Making an account
+Part 2: Making an account
+---
 
 ![alt](/img/create-account.png)
 
@@ -9,3 +10,5 @@ Otherwise, go ahead and make [one](http://forums.cyberconnects2.com/) now.
 - The username is your Display Name, where everyone can see, as well as in-game. Choose wisely.
 - Read and agree to the terms and rules!
 - Make sure you confirm your email address as well.
+<br>
+- Once done, contiune to the next section.

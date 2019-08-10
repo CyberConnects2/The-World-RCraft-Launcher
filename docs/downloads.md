@@ -1,4 +1,8 @@
-# Downloads
+Part 1: Downloading the game
+---
+
+> [!WARNING]
+> All old versions of the launcher that was previously available on either an official website or an old GitHub repo page will no longer work. You need to re-install the launcher from a new GitHub repo page. The download links can be find below or simply click the GitHub link in navbar above.
 
 1. Install the launcher on specified operating system by downloading the installer below.
 2. Ensure the installer isn't blocked by your OS or browser.
@@ -16,6 +20,7 @@
 
 System Requirements
 ---
+
 Minimum:
 - OS: Windows 7 or later
 - CPU: Intel Core i3-3210 / AMD A8-7600 APU or equivalent
@@ -33,7 +38,7 @@ Recommended:
 > [!TIP]
 > You can check your specs on your computer by:
 >
-> Open file explorer and make sure you’re on “This PC” and right-click, open Properties.
+> Open file explorer and make sure you’re on “This PC” and right-click, then open Properties.
 
 #### **macOS**
 
@@ -41,6 +46,7 @@ Recommended:
 
 System Requirements
 ---
+
 Minimum:
 - OS: macOS 10.9+ (Mavericks or later)
 - CPU: Intel Core i3-3210 / AMD A8-7600 APU or equivalent
@@ -58,7 +64,7 @@ Recommended:
 > [!TIP]
 > You can check your specs on your computer by:
 >
-> Click the apple icon, and click “About this Mac…”
+> Click the apple icon, and click “About This Mac”.
 
 #### **Linux**
 
@@ -66,6 +72,7 @@ Recommended:
 
 System Requirements
 ---
+
 Minimum:
 - OS: Any 64-bit distributions from 2014 onwards
 - CPU: Intel Core i3-3210 / AMD A8-7600 APU or equivalent
@@ -82,6 +89,7 @@ Recommended:
 
 > [!TIP]
 > You can check your specs on your computer by:
+>
 > - Ubuntu: Open “System Monitor” via search.
 > - Other: Use lshw binary package:
 > 	- sudo apt-get install lshw (if you haven’t already gotten it)

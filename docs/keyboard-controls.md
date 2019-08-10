@@ -1,4 +1,5 @@
-# Basic Keyboard Controls
+Basic Keyboard Controls
+---
 
 <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_ESC.png"> Escape
 

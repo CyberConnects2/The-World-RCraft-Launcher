@@ -1,10 +1,11 @@
-# Accessing Shops and Banks
+Bank and Shops
+---
 
 <!-- tabs:start -->
 
 #### **Bank**
 
-1. You will find the bank here in Mac Anu, simple walk to the NPC and right-click.
+1. You will find the bank here in Mac Anu, simply walk to the NPC and right-click.
 
 ![alt](/img/banking/bank.png)
 

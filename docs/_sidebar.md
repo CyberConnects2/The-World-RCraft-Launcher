@@ -4,16 +4,17 @@
 	- [FAQ](faq.md)
 	
 * Getting started
-	- [Downloads](downloads.md)
-	- [Making an account](account.md)
-	- [Skin Changer](skin-changer.md)
+	- [PT.1: Downloading the game](downloads.md)
+	- [PT.2: Making an account](account.md)
+	- [PT.3: Initialization](initialization.md)
 	
 * Gameplay & Features
 	- [Basic Keyboard Controls](keyboard-controls.md)
 	- [Basic Controller Controls](controller-controls.md)
-	- [Choosing your Class!](classes.md)
-	- [Accessing Shops and Banks](menus.md)
-	- [Going to Fields](fields.md)
+	- [Skin Changer](skin-changer.md)
+	- [Classes](classes.md)
+	- [Bank & Shops](menus.md)
+	- [Accessing Fields](fields.md)
 	
 * Optional
 	- [Steam Controller Configuration](steam-config.md)

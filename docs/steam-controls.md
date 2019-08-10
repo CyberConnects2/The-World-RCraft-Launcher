@@ -1,4 +1,5 @@
-# Steam Controller Profiles
+Steam Controller Profiles
+---
 
 ![](img/controls/steam-layout.png)<br>
 Steam Controller
