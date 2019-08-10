@@ -7,11 +7,11 @@
 	- [Downloads](downloads.md)
 	- [Making an account](account.md)
 	- [Skin Changer](skin-changer.md)
-	- [Initialization](initialization.md)
 	
 * Gameplay & Features
 	- [Basic Keyboard Controls](keyboard-controls.md)
 	- [Basic Controller Controls](controller-controls.md)
+	- [Choosing your Class!](classes.md)
 	- [Accessing Shops and Banks](menus.md)
 	- [Going to Fields](fields.md)
 	
