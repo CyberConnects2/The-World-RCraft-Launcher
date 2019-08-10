@@ -4,7 +4,7 @@
 	- [FAQ](faq.md)
 	
 * Getting started
-	- [PT.1: Downloading the game](downloads.md)
+	- [PT.1: Downloads](downloads.md)
 	- [PT.2: Making an account](account.md)
 	- [PT.3: Initialization](initialization.md)
 	

@@ -1,4 +1,4 @@
-Part 1: Downloading the game
+Part 1: Downloads
 ---
 
 > [!WARNING]
