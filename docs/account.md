@@ -3,7 +3,7 @@ Part 2: Making an account
 
 ![alt](/img/create-account.png)
 
-All in-game account creations are handled by the forums, so get your account over at CyberConnects2 forums. Skip this section if you already have the account.
+All in-game account creations are handled by the forums, so get your account over at the CyberConnects2 forums. Skip this section if you already have the account.
 
 Otherwise, go ahead and make [one](http://forums.cyberconnects2.com/) now.
 

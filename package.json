@@ -1,6 +1,6 @@
 {
   "name": "rcraftlauncher",
-  "version": "1.7.9",
+  "version": "1.7.10",
   "productName": "The World RCraft Launcher",
   "description": "Electron Based Launcher For The World RCraft",
   "author": "CyberConnects2 (https://github.com/CyberConnects2)",
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "electron": "^6.0.0",
+    "electron": "^6.0.1",
     "electron-builder": "^21.2.0",
     "eslint": "^6.1.0"
   },

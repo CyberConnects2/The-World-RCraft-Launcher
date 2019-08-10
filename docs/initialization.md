@@ -11,16 +11,16 @@ This section mostly focuses on how you can start in the game.
 
 ![alt](/img/classes/classes.png)
 
-3. You can do `/kit <classname>` to recieve your starter items.
+3. You can do `/kit classname` to recieve your starter items.
 	> [!NOTE|label:Information]
-	> An example of using this command for Edge Punisher: `/kit <edgepunisher>` <br>
+	> An example of using this command for Edge Punisher: `/kit edgepunisher` <br>
 	> Notice how there are no spaces used here. This is very important, do not forget that!
 
 > [!NOTE]
 > After choosing the class, clicking another option will do nothing and you will be sent a message saying denied access. Check the FAQ for details on this, if you want to change the class.
 
 > [!NOTE|label:Information]
-> You may check other sections of the guide for more details on the gameplay or if you would like to learn more about features the game offer.
+> You may check other sections of the guide for more details on the gameplay or if you would like to learn more about features the game offer.s
 >
 > Basic Keyboard Controls, Skin Changer, Classes, Bank & Shops, and Accessing Fields are good sections to start with for beginners. <br>
 > More advanced sections would be Basic Controller Controls and Steam Controller Configuration. <br>
