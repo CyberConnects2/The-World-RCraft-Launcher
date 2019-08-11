@@ -25,9 +25,9 @@ If you download from the [Releases](https://github.com/AzureZhen/ElectronLaunche
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `rcraftlauncher.exe` |
-| Linux | `rcraftlauncher.AppImage` |
-| macOS | `rcraftlauncher.dmg` |
+| Windows x64 | `TheWorldRCraftLauncher.exe` |
+| Linux | `TheWorldRCraftLauncher.AppImage` |
+| macOS | `TheWorldRCraftLauncher.dmg` |
 
 ## Console
 
