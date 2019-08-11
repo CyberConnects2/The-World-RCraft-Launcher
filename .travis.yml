@@ -43,12 +43,11 @@ deploy:
   api_key:
     secure: J9PDPn+gFdZlQsmEBKc3j//tVJsVuqo8APKSpA2vvSYflqiPRpOsiPLA0AKKRqvStErCmcucFx0r60nRowNRHqoUE5WVJqqKKAckeKSe0dCuCizzQ8MRvEDWE9Fu0N+Tc8P6BlMMJh0QKbNr7Srh1Uw+AZ7r/ky7UkmhkiBHSyNHyzwteOkTcSZRmbsXkhYdxQGBPCV8k4MqzKNJvyLX3PrNRshNvqwAS8ZLl/QGufcv15/ujFzqX05CMnwP0YkUmPkXSgyAAzSkeCX6yTQszfprIOxIOy6c6RRv1ZO1034OUoSsb2GUU2dWGYpzG+vt74/edmoPCb/agqpStiVfH/byOdrJc+yhWiGJ9o6xUJvDmymaVIUVy6uNwCylyap8XWHvBIzVnGppyF6GFavqBnAJfKbPEcZoRik42xxgNzHR6zuQGbCRh43BLyQlBGuzafO0TpoNLqmbgKKCT6RxHIxdXIV1H9tF3KvdyQmRAWYg9uDbq3c/0N82MySD7vWy4Mx5IHxiuO6kCffrgV9SmwS7owSGhzSg58IF3LbJkMl4klB5qUuXZk6CzRTNHcN4TTWq6a3XzGxH5K2cJQN2ghhmFOaG9g9mSLpQf6GExs4V4u+OOT5ew+3Xj5dgIWop9WQiRpTrovIpFils6KyygaiXydWeornrOEZ11z5Ynl4=
   file: 
-   - dist/rcraftlauncher.dmg
+   - dist/TheWorldRCraftLauncher.dmg
    - dist/latest-mac.yml
-   - dist/rcraftlauncher.AppImage
+   - dist/TheWorldRCraftLauncher.AppImage
    - dist/latest-linux.yml
    - dist/latest.yml
-   - dist/rcraftlauncher.exe
-   - rcraftlauncher.exe.blockmap
+   - dist/TheWorldRCraftLauncher.exe
   on:
     repo: CyberConnects2/TheWorldRCraftLauncher
