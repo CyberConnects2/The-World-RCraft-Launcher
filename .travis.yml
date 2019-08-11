@@ -35,9 +35,8 @@ script:
 before_cache:
 - rm -rf $HOME/.cache/electron-builder/wine
 branches:
-    only:
-    - master
-    - /v\d+\.\d+[a-z]/
+  except:
+  - "/^v\\d+\\.\\d+\\.\\d+$/"
 deploy:
   provider: releases
   skip_cleanup: true
@@ -52,4 +51,4 @@ deploy:
    - dist/rcraftlauncher.exe
    - rcraftlauncher.exe.blockmap
   on:
-    tags: true
+    repo: CyberConnects2/TheWorldRCraftLauncher
