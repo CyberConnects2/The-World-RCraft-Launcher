@@ -20,3 +20,6 @@
 * Optional
 	- [Steam Controller Configuration](steam-config.md)
 	- [Steam Controller Profiles](steam-controls.md)
+	
+* Credits
+	- [Mods](mods.md)

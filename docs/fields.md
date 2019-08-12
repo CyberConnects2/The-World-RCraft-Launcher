@@ -20,3 +20,7 @@ Accessing Fields
 5. Now you can hop in the portal to travel the map and start killing!
 
 ![alt](/img/field/portal.png)
+
+Here is a link to our video guide 
+
+[![fields](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](http://www.youtube.com/watch?v=RO6oB8mjYB8 "How to Access Fields")
