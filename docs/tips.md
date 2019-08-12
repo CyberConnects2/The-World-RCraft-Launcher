@@ -21,6 +21,10 @@ Tips
 
 ![alt](/img/hidearmor/armor_shown.png)
 
+Here is a link to our video guide 
+
+[![sellitems](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=VLcyaHlFRAU "How to Hide Your Items")
+
 #### **Repairing your gear**
 
 1. Put gear item into savlage station that you wish to break down.
