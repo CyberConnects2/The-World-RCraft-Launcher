@@ -21,4 +21,26 @@ Tips
 
 ![alt](/img/hidearmor/armor_shown.png)
 
+#### **Repairing your gear**
+
+1. Put gear item into savlage station that you wish to break down.
+
+![alt](/img/repair/put_item_in_savlage.png)
+
+2. You will now receive ore.
+
+![alt](/img/repair/get_ore_from_savlage.png)
+
+3. Now head to the repair station and put in the gear you wish to repair.
+
+![alt](/img/repair/add_item_to_repair.png)
+
+4. Add ore to the station to fuel the repair process.
+
+![alt](/img/repair/add_ore_to_repair.png)
+
+5. Your gear is now fully repaired!
+
+![alt](/img/repair/item_fully_repaired.png)
+
 <!-- tabs:end -->
