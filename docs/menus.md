@@ -15,7 +15,7 @@ Bank and Shops
 
 Here is a link to our video guide 
 
-[![bank](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=mDUEsL0cMQs "How to Access Bank")
+[![bank](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=mMvHLCI_dNw "How to Access Bank")
 
 #### **Shops**
 
@@ -33,6 +33,6 @@ Here is a link to our video guide
 
 Here is a link to our video guide 
 
-[![sellitems](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=UgbH0KQQXlo "How to Sell Items")
+[![sellitems](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=sxVf3rH8uNc "How to Sell Items")
 
 <!-- tabs:end -->

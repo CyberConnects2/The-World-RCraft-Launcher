@@ -23,4 +23,4 @@ Accessing Fields
 
 Here is a link to our video guide 
 
-[![fields](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](http://www.youtube.com/watch?v=RO6oB8mjYB8 "How to Access Fields")
+[![fields](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=Vqqh1oARvOI "How to Access Fields")

@@ -45,6 +45,6 @@ Tips
 
 Here is a link to our video guide 
 
-[![sellitems](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=3Ewgr50Zwnc "How to Repair Your Items")
+[![sellitems](http://img.youtube.com/vi/RO6oB8mjYB8/0.jpg)](https://www.youtube.com/watch?v=A62Go-bPpXo "How to Repair Your Items")
 
 <!-- tabs:end -->
