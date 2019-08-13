@@ -541,7 +541,7 @@ exports.pullRemote = function(){
         //const distroURL = 'https://thecollectiveofaveragegamers.com/zhens/distribution.json'
         const opts = {
             url: distroURL,
-            timeout: 2500
+            timeout: 250000
         }
         const distroDest = path.join(ConfigManager.getLauncherDirectory(), 'distribution.json')
         request(opts, (error, resp, body) => {
