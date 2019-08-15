@@ -16,7 +16,7 @@ Part 1: Downloads
 
 #### **Windows**
 
-<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><img src="img/windows.png" height="100" style="vertical-align:middle"> <a style="font-size:25px" href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases/latest/download/rcraftlauncher.exe">Download for Windows</a></div>
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><img src="img/windows.png" height="100" style="vertical-align:middle"> <a style="font-size:25px" href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases/latest/download/TheWorldRCraftLauncher.exe">Download for Windows</a></div>
 
 System Requirements
 ---
@@ -42,7 +42,7 @@ Recommended:
 
 #### **macOS**
 
-<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><img src="img/macos.png" height="100" style="vertical-align:middle"> <a style="font-size:25px" href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases/latest/download/rcraftlauncher.dmg">Download for macOS</a></div>
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><img src="img/macos.png" height="100" style="vertical-align:middle"> <a style="font-size:25px" href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases/latest/download/TheWorldRCraftLauncher.dmg">Download for macOS</a></div>
 
 System Requirements
 ---
@@ -68,7 +68,7 @@ Recommended:
 
 #### **Linux**
 
-<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><img src="img/linux.png" height="100" style="vertical-align:middle"> <a style="font-size:25px" href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases/latest/download/rcraftlauncher.AppImage">Download for Linux</a></div>
+<div style="display:block;margin-left:auto;margin-right:auto;text-align:center"><img src="img/linux.png" height="100" style="vertical-align:middle"> <a style="font-size:25px" href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases/latest/download/TheWorldRCraftLauncher.AppImage">Download for Linux</a></div>
 
 System Requirements
 ---
