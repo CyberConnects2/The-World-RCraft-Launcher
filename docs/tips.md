@@ -55,32 +55,30 @@ Here is a link to our video guide
 
 ![alt](/img/upgrade.png)
 
-<!-- tabs:start -->
-#### **Storage Upgrade**
-Storage upgrades increase the mana capacity of Staffs or Grimoires. Each storage upgrade increases the amount of mana a wand can hold by 15%. This means with a maximum of 3 storage upgrades applied, your weapon will have a mana capacity of 3625.
+**Storage Upgrade**
+Storage upgrades increase the mana capacity of Staffs or Grimoires. Each storage upgrade increases the amount of mana a weapon can hold by 15%. This means with a maximum of 3 storage upgrades applied, your weapon will have a mana capacity of 3625.
 
-<!-- tabs:end -->
-Siphon Upgrade
-Siphon upgrades cause wands to extract mana from creatures their wielder kills. When a player kills any creature, the first wand on their hotbar* which has a siphon upgrade will gain a small amount of mana. The kill can be with anything, it does not have to be the wand with the upgrade - any kill that counts as a player kill will grant siphon mana. The mana gained is a random number from 3-5 per siphon upgrade. This means that a wand with 1 siphon upgrade will gain 3-5 mana per kill, a wand with 2 siphon upgrades will gain 6-10 mana and a wand with 3 siphon upgrades will gain 9-15 mana. Only the first wand on the player's hotbar* gains mana for a kill, even if there are other wands with siphon upgrades on the player's hotbar.
+**Siphon Upgrade**
+Siphon upgrades extract mana from creatures their wielder kills. When a player kills any creature, the first weaoib on their hotbar* which has a siphon upgrade will gain a small amount of mana. The kill can be with anything, it does not have to be the weapon with the upgrade - any kill that counts as a player kill will grant siphon mana. The mana gained is a random number from 3-5 per siphon upgrade. This means that a weapon with 1 siphon upgrade will gain 3-5 mana per kill, a weapon with 2 siphon upgrades will gain 6-10 mana and a weapon with 3 siphon upgrades will gain 9-15 mana. Only the first weapon on the player's hotbar* gains mana for a kill, even if there are other weapons with siphon upgrades on the player's hotbar.
 
 * The exact order of precedence is main hand, then offhand, followed by the rest of the hotbar left-to-right.
 
-Condenser Upgrade
-Condenser upgrades cause wands to slowly regenerate mana over time. When a wand with a condenser upgrade is in a player's inventory or in an arcane workbench, it will gain 1 mana per condenser upgrade every 1.5 seconds. Unlike siphon upgrades, all wands with condenser upgrades will gain mana simultaneously, even if a player is carrying more than one.
+**Condenser Upgrade**
+Condenser upgrades cause weapons to slowly regenerate mana over time. When a weapon with a condenser upgrade is in a player's inventory or in an arcane workbench, it will gain 1 mana per condenser upgrade every 1.5 seconds. Unlike siphon upgrades, all weapons with condenser upgrades will gain mana simultaneously, even if a player is carrying more than one.
 
-Range Upgrade
-Range upgrades increase the range of spells cast by a wand. Projectiles will fly further and faster, constructs can be created from further away, and ray-type spells will have a longer reach. Each range upgrade increases a wand's range by 25%, so a maximum 3 range upgrades will give a 75% range increase. A few spells such as phase step have special behaviours with range upgrades; see individual spells' pages for details.
+**Range Upgrade**
+Range upgrades increase the range of spells cast by a weapon. Projectiles will fly further and faster, constructs can be created from further away, and ray-type spells will have a longer reach. Each range upgrade increases a weapon's range by 25%, so a maximum 3 range upgrades will give a 75% range increase. A few spells such as phase step have special behaviours with range upgrades; see individual spells' pages for details.
 
-Duration Upgrade
-Duration upgrades increase the length of time spells cast by a wand last for. Summoned creatures will last for longer before vanishing, potion effects will last for longer, and conjured items and constructs will last for longer. Each duration upgrade increases the duration of spells by 25%, so a maximum 3 duration upgrades will give a 75% duration increase.
+**Duration Upgrade**
+Duration upgrades increase the length of time spells cast by a weapon last for. Summoned creatures will last for longer before vanishing, potion effects will last for longer, and conjured items and constructs will last for longer. Each duration upgrade increases the duration of spells by 25%, so a maximum 3 duration upgrades will give a 75% duration increase.
 
-Cooldown Upgrade
-Cooldown upgrades reduce the length of all spell cooldowns for a wand. Each cooldown upgrade reduces the cooldown time of spells by 15%, so a maximum 3 cooldown upgrades will decrease the cooldown time by 45%. This effect also stacks with the font of mana status effect.
+**Cooldown Upgrade**
+Cooldown upgrades reduce the length of all spell cooldowns for a weapon. Each cooldown upgrade reduces the cooldown time of spells by 15%, so a maximum 3 cooldown upgrades will decrease the cooldown time by 45%. This effect also stacks with the font of mana status effect.
 
-Blast Upgrade
-Blast upgrades increase the blast radius or area of effect of spells cast by a wand. Explosions will be bigger and spells with an area of effect will affect a larger area. Each blast upgrade will increase the radius of the area of effect by 25%, so a maximum 3 blast upgrades will give a 75% blast radius increase.
+**Blast Upgrade**
+Blast upgrades increase the blast radius or area of effect of spells cast by a weapon. Explosions will be bigger and spells with an area of effect will affect a larger area. Each blast upgrade will increase the radius of the area of effect by 25%, so a maximum 3 blast upgrades will give a 75% blast radius increase.
 
-Attunement Upgrade
-Attunement upgrades increase the number of spells that can be bound to a wand. Each attunement upgrade grants one additional spell slot, so a maximum 3 attunement upgrades will increase the number of spells a wand can hold from 5 to 8.
+**Attunement Upgrade**
+Attunement upgrades increase the number of spells that can be bound to a weapon. Each attunement upgrade grants one additional spell slot, so a maximum 3 attunement upgrades will increase the number of spells a weapon can hold from 5 to 8.
 
 <!-- tabs:end -->
