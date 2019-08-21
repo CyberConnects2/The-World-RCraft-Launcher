@@ -423,15 +423,17 @@ function populateAuthAccounts(){
 
     authKeys.map((val) => {
         const acc = authAccounts[val]
+        let picAcc = acc.displayName.replace(/_/g, " ")
+        
         authAccountStr += `<div class="settingsAuthAccount" uuid="${acc.uuid}">
             <div class="settingsAuthAccountLeft">
-                <img class="settingsAuthAccountImage" alt="${acc.displayName}" src="http://www.cyberconnects2.com/games/rcraft/skins/test/3d.php?ratio=116&login=${acc.displayName}">
+                <img class="settingsAuthAccountImage" alt="${picAcc}" src="http://cyberconnects2.com/games/rcraft/skins/test/3d.php?ratio=116&login=${picAcc}">
             </div>
             <div class="settingsAuthAccountRight">
                 <div class="settingsAuthAccountDetails">
                     <div class="settingsAuthAccountDetailPane">
                         <div class="settingsAuthAccountDetailTitle">Username</div>
-                        <div class="settingsAuthAccountDetailValue">${acc.displayName}</div>
+                        <div class="settingsAuthAccountDetailValue">${picAcc}</div>
                     </div>
                 </div>
                 <div class="settingsAuthAccountActions">
