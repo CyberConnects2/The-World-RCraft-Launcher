@@ -130,7 +130,7 @@ function updateSelectedAccount(authUser){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('http://www.cyberconnects2.com/games/rcraft/skins/test/3d.php?headOnly=true&ratio=128&login=${authUser.displayName}')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('http://cyberconnects2.com/games/rcraft/skins/Face.php?size=512&player=${authUser.displayName}')`
         }
     }
     user_text.innerHTML = username
