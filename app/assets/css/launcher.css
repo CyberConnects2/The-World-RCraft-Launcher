@@ -1318,7 +1318,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Left hand side of an auth account element, for the skin image. */
 .settingsAuthAccountLeft {
-    padding: 5px 5px 5px 20px;
+    padding: 5px 5px 5px 5px;
 }
 
 /* Image of the auth account's skin. */
