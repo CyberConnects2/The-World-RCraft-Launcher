@@ -131,7 +131,7 @@ function updateSelectedAccount(authUser){
         }
         if(authUser.uuid != null){
             let picAcc = authUser.displayName.replace(/_/g, " ")
-            document.getElementById('avatarContainer').style.backgroundImage = `url('http://cyberconnects2.com/games/rcraft/skins/Face.php?size=512&player=${picAcc}')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('http://cyberconnects2.com/games/rcraft/skins/Face.php?size=256&player=${picAcc}')`
         }
     }
     user_text.innerHTML = username
