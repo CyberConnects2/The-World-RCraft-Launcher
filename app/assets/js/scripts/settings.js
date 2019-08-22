@@ -427,7 +427,7 @@ function populateAuthAccounts(){
         
         authAccountStr += `<div class="settingsAuthAccount" uuid="${acc.uuid}">
             <div class="settingsAuthAccountLeft">
-                <img class="settingsAuthAccountImage" alt="${picAcc}" src="http://cyberconnects2.com/games/rcraft/skins/Skin.php?size=512&player=${picAcc}">
+                <img class="settingsAuthAccountImage" alt="${picAcc}" src="http://cyberconnects2.com/games/rcraft/skins/Skin.php?size=57&player=${picAcc}">
             </div>
             <div class="settingsAuthAccountRight">
                 <div class="settingsAuthAccountDetails">
