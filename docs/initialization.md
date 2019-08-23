@@ -11,10 +11,7 @@ This section mostly focuses on how you can start in the game.
 
 ![alt](/img/classes/classes.png)
 
-3. You can do `/kit classname` to recieve your starter items.
-	> [!NOTE|label:Information]
-	> An example of using this command for Edge Punisher: `/kit edgepunisher` <br>
-	> Notice how there are no spaces used here. This is very important, do not forget that!
+3. You will now see a message saying you joined your class. Open you inventory and you will find your kit!
 
 > [!NOTE]
 > After choosing the class, clicking another option will do nothing and you will be sent a message saying denied access. Check the FAQ for details on this, if you want to change the class.
