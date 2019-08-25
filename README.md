@@ -2,7 +2,9 @@
 
 <h1 align="center">The World R:Craft Launcher</h1>
 
-![Screenshot 1](https://i.imgur.com/dSURbet.png)
+![Screenshot 1](https://i.imgur.com/R69FAuO.png)
+
+[<p align="center"><img src="https://img.shields.io/travis/CyberConnects2/TheWorldRCraftLauncher?style=for-the-badge" alt="travis">][<p align="center"><img src="https://img.shields.io/github/downloads/CyberConnects2/TheWorldRCraftLauncher/total?style=for-the-badge" alt="downloads">]
 
 ## Features
 
@@ -50,8 +52,7 @@ If you want to export the console output, simply right click anywhere on the con
 You may use this software in your own project so long as the following conditions are met.
 
 * Credit is expressly given to the original authors (Daniel Scalzi).
-  * Include a link to the original source on the launcher's About page.
-  * Credit the authors and provide a link to the original source in any publications or download pages.
-* The source code remain **public** as a fork of this repository.
+  * Included a link to the [original source](https://github.com/dscalzi/ElectronLauncher) on the launcher's About page.
+  * Credited the authors and provide a link to the original source in any publications or download pages.
 
 We reserve the right to update these conditions at any time, please check back periodically.
