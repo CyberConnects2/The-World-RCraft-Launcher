@@ -4,7 +4,7 @@
 
 ![Screenshot 1](https://i.imgur.com/R69FAuO.png)
 
-[<p align="center"><img src="https://img.shields.io/travis/CyberConnects2/TheWorldRCraftLauncher?style=for-the-badge" alt="travis">](https://travis-ci.org/CyberConnects2/TheWorldRCraftLauncher)[<img src="https://img.shields.io/github/downloads/CyberConnects2/TheWorldRCraftLauncher/total?style=for-the-badge" alt="downloads">](https://github.com/AzureZhen/ElectronLauncher/releases)</p>
+[<p align="center"><img src="https://img.shields.io/travis/CyberConnects2/TheWorldRCraftLauncher?style=for-the-badge" alt="travis">](https://travis-ci.org/CyberConnects2/TheWorldRCraftLauncher)[<img src="https://img.shields.io/github/downloads/CyberConnects2/TheWorldRCraftLauncher/total?style=for-the-badge" alt="downloads">](https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases)</p>
 
 ## Features
 
@@ -19,7 +19,6 @@
   * You do not need to have Java installed to run the launcher.
 * ⚙️ Intuitive settings management, including a Java control panel.
 * View the player count of The World R:Craft server.
-* Automatic updates. That's right, the launcher updates itself.
 
 ## Downloads
 
