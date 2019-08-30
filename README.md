@@ -1,4 +1,4 @@
-<p align="center"><img src="./app/assets/images/SealCircle.png" height="125px" alt="aventium softworks"></p>
+<p align="center"><img src="./app/assets/images/SealCircle.png" height="125px" alt="theworldrcraft"></p>
 
 <h1 align="center">The World R:Craft Launcher</h1>
 
@@ -22,7 +22,7 @@
 
 ## Downloads
 
-If you download from the [Releases](https://github.com/AzureZhen/ElectronLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |

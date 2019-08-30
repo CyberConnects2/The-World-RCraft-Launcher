@@ -83,8 +83,8 @@ function showMainUI(data){
             $(VIEWS.welcome).fadeIn(1000)
         } else {
             if(isLoggedIn){
-                currentView = VIEWS.landing
-                $(VIEWS.landing).fadeIn(1000)
+                currentView = VIEWS.welcome
+                $(VIEWS.welcome).fadeIn(1000)
             } else {
                 currentView = VIEWS.login
                 $(VIEWS.login).fadeIn(1000)
@@ -98,10 +98,6 @@ function showMainUI(data){
         }, 250)
         
     }, 750)
-    // Disable tabbing to the news container.
-    initNews().then(() => {
-        $('#newsContainer *').attr('tabindex', '-1')
-    })
 }
 
 function showFatalStartupError(){
@@ -130,7 +126,6 @@ function showFatalStartupError(){
 function onDistroRefresh(data){
     updateSelectedServer(data.getServer(ConfigManager.getSelectedServer()))
     refreshServerStatus()
-    initNews()
     syncModConfigurations(data)
 }
 

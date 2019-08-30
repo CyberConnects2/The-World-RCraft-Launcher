@@ -13,7 +13,7 @@
                 },
                 "invalidCredentials": {
                     "title": "Error During Login:<br>Invalid Credentials",
-                    "desc": "The email or password you've entered is incorrect. Please try again."
+                    "desc": "The memeber address or password you've entered is incorrect. Please try again."
                 },
                 "rateLimit": {
                     "title": "Error During Login:<br>Too Many Attempts",
