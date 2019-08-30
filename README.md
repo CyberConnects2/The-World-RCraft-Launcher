@@ -4,9 +4,7 @@
 
 ![Screenshot 1](https://i.imgur.com/R69FAuO.png)
 
-[<p align="center"><img src="https://img.shields.io/travis/CyberConnects2/TheWorldRCraftLauncher?style=for-the-badge" alt="travis">](https://travis-ci.org/CyberConnects2/TheWorldRCraftLauncher )
-
-[<img src="https://img.shields.io/github/downloads/CyberConnects2/TheWorldRCraftLauncher/total?style=for-the-badge" alt="downloads">](https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases )</p>
+[<p align="center"><img src="https://img.shields.io/travis/CyberConnects2/TheWorldRCraftLauncher?style=for-the-badge" alt="travis">](https://travis-ci.org/CyberConnects2/TheWorldRCraftLauncher )[<img src="https://img.shields.io/github/downloads/CyberConnects2/TheWorldRCraftLauncher/total?style=for-the-badge" alt="downloads">](https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases )</p>
 
 ## Features
 
