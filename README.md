@@ -2,7 +2,7 @@
 
 <h1 align="center">The World R:Craft Launcher</h1>
 
-![Screenshot 1](https://i.imgur.com/R69FAuO.png)
+![Screenshot 1](https://i.imgur.com/4lHAioy.png)
 
 [<p align="center"> <img src="https://img.shields.io/travis/CyberConnects2/TheWorldRCraftLauncher?style=for-the-badge" alt="travis">](https://travis-ci.org/CyberConnects2/TheWorldRCraftLauncher ) [<img src="https://img.shields.io/github/downloads/CyberConnects2/TheWorldRCraftLauncher/total?style=for-the-badge" alt="downloads">](https://github.com/CyberConnects2/TheWorldRCraftLauncher/releases )</p>
 
@@ -44,7 +44,7 @@ Ensure that you have the console tab selected. Do not paste anything into the co
 
 If you want to export the console output, simply right click anywhere on the console and click **Save as..**
 
-![console example](https://i.imgur.com/HazXrgT.png)
+![console example](https://i.imgur.com/JXmFqpw.png)
 
 ### Note on Third-Party Usage
 
