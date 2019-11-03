@@ -3,13 +3,13 @@ Part 3: Initialization
 
 This section mostly focuses on how you can start in the game.
 
-1. Open Player Menu <img height="25" style="vertical-align:middle" src="../img/controls/keyboard/key-letter_R.png"> and hover "Choose Class" at the top then click.
+1. Open Player Menu <img height="25" style="vertical-align:middle" src="/img/controls/keyboard/key-letter_R.png"> and hover "Choose Class" at the top then click.
 
-![alt](../img/classes/option.png)
+![alt](/img/classes/option.png)
 
 2. You will now open the sub menu with different weapon icons. Hovering over one will show the class name. Click the class you want to join.
 
-![alt](../img/classes/classes.png)
+![alt](/img/classes/classes.png)
 
 3. You will now see a message saying you joined your class. Open you inventory and you will find your kit!
 
