@@ -51,14 +51,14 @@ export const DEFAULT_ARGS = `-Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInv
 } -Xms256m`;
 export const DEFAULT_MEMORY = 4096;
 export const UPDATE_URL =
-  'https://raw.githubusercontent.com/gorilla-devs/GDLauncher/master/package.json';
+  'https://raw.githubusercontent.com/CyberConnects2/GDLauncher/master/package.json';
 export const THEMES = {
   default: {
     name: 'Default',
-    primary: '#2980b9',
-    'secondary-color-1': '#34495e',
-    'secondary-color-2': '#2c3e50',
-    'secondary-color-3': '#212b36'
+     primary: '#aa1e0f',
+    'secondary-color-1': '#282c2f',
+    'secondary-color-2': '#14181b',
+    'secondary-color-3': '#000407'
   },
   carrotUniverse: {
     name: 'Carrot Universe',
