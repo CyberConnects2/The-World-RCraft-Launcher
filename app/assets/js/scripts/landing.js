@@ -131,7 +131,7 @@ function updateSelectedAccount(authUser){
         }
         if(authUser.uuid != null){
             let picAcc = authUser.displayName.replace(/_/g, " ")
-            document.getElementById('avatarContainer').style.backgroundImage = `url('http://cyberconnects2.com/games/rcraft/skins/Face.php?size=70&player=${picAcc}')`
+            document.getElementById('avatarContainer').style.backgroundImage = `url('https://twilightgamesstudio.com/games/rcraft/skins/Face.php?size=70&player=${picAcc}')`
         }
     }
     user_text.innerHTML = username
@@ -145,17 +145,10 @@ function updateSelectedServer(serv){
     }
     ConfigManager.setSelectedServer(serv != null ? serv.getID() : null)
     ConfigManager.save()
-    server_selection_button.innerHTML = '\u2022 ' + (serv != null ? serv.getName() : 'No Server Selected')
     if(getCurrentView() === VIEWS.settings){
         animateModsTabRefresh()
     }
     setLaunchEnabled(serv != null)
-}
-// Real text is set in uibinder.js on distributionIndexDone.
-server_selection_button.innerHTML = '\u2022 Loading..'
-server_selection_button.onclick = (e) => {
-    e.target.blur()
-    toggleServerSelection(true)
 }
 
 // Update Mojang Status Color

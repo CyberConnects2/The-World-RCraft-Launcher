@@ -1,6 +1,6 @@
 {
   "name": "TheWorldRCraftLauncher",
-  "version": "1.8.1",
+  "version": "2.0.0",
   "productName": "The World RCraft Launcher",
   "description": "Electron Based Launcher For The World RCraft",
   "author": "CyberConnects2 (https://github.com/CyberConnects2)",
@@ -28,10 +28,10 @@
   "dependencies": {
     "adm-zip": "^0.4.13",
     "async": "^3.1.0",
-    "discord-rpc": "3.0.2",
-    "ejs": "^2.6.2",
+    "discord-rpc": "3.1.0",
+    "ejs": "^2.7.2",
     "ejs-electron": "^2.0.3",
-    "electron-updater": "^4.1.2",
+    "electron-updater": "^4.2.0",
     "fs-extra": "^8.1.0",
     "github-syntax-dark": "^0.5.0",
     "jquery": "^3.4.1",
@@ -42,10 +42,10 @@
     "winreg": "^1.2.4"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "electron": "^6.0.6",
+    "cross-env": "^6.0.3",
+    "electron": "^7.1.1",
     "electron-builder": "^21.2.0",
-    "eslint": "^6.2.2"
+    "eslint": "^6.6.0"
   },
   "repository": {
     "type": "git",

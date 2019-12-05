@@ -280,6 +280,13 @@ body, button {
     margin-top: 10%;
 }
 
+#playImage {
+    height: 50px;
+    width: 125px;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
 #welcomeHeader {
     font-family: 'Avenir Medium';
     text-align: center;
