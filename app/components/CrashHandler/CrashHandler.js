@@ -11,7 +11,7 @@ export default props => {
       <div>
         <img src={creeper} />
         <h1>WE’RE SSSSSSSORRY</h1>
-        <h2>GDLauncher ran into a creeper and blew up..</h2>
+        <h2>TheWorldRCraft ran into a creeper and blew up..</h2>
         <Button
           type="primary"
           onClick={() => {
@@ -19,7 +19,7 @@ export default props => {
             remote.app.quit();
           }}
         >
-          Restart GDLauncher
+          Restart TheWorldRCraft
         </Button>
       </div>
     </div>

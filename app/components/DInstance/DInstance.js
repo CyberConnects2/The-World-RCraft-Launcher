@@ -294,7 +294,7 @@ export default class DInstance extends Component<Props> {
               exec(
                 `powershell $s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\\Desktop\\${name}.lnk');$s.TargetPath='${path.join(
                   APPPATH,
-                  'GDLauncher.exe'
+                  'TheWorldRCraft.exe'
                 )}';$s.Arguments='-i ${name}';$s.Save()`,
                 error => {
                   if (error) {

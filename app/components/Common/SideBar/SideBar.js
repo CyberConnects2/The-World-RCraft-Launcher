@@ -79,7 +79,7 @@ const SideBar = props => {
         <div className={styles.header}>
           <span>
             <CIcon size={32}>
-              {props.username && props.username.charAt(0).toUpperCase()}
+              {<img src="https://twilightgamesstudio.com/games/rcraft/skins/Face.php?size=70&player=$props.username" width="32" height="32"></img>}
             </CIcon>
           </span>
           <span>{props.username}</span>
@@ -88,12 +88,6 @@ const SideBar = props => {
           </div>
         </div>
       </div>
-      <hr />
-      <div className={styles.instanceTitle}>
-        <h2>Bookmarked Servers</h2>
-        No server
-      </div>
-      <hr />
       <div className={styles.instanceTitle}>
         <h2>Instance Overview</h2>
         {instanceData !== null ? (
@@ -190,12 +184,6 @@ const SideBar = props => {
       <hr style={{ margin: 0 }} />
       <div className={styles.socialsContainer}>
         {/* eslint-disable */}
-        {/* <SocialIcon icon="twitter" url="https://twitter.com/gorilladevs" /> */}
-        <SocialIcon icon={faFacebook} url="https://facebook.com/gorilladevs" />
-        <SocialIcon
-          icon={faDiscord}
-          url="https://discordapp.com/invite/4cGYzen"
-        />
         <span className={styles.version}>
           <Link to={{ pathname: '/changelogs', state: { modal: true } }}>
             v{require('../../../../package.json').version}

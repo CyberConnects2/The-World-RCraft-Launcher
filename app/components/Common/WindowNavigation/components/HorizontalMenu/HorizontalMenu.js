@@ -39,20 +39,6 @@ export default props => {
             INSTANCES
           </Link>
         </li>
-        <li
-          className={`${styles.li} ${
-            isLocation('/curseModpacksBrowser') ? styles.activeLink : null
-          }`}
-        >
-          <Link
-            to="/curseModpacksBrowser"
-            draggable="false"
-            className={styles.a}
-          >
-            <FontAwesomeIcon icon={faThList} className={styles.i} />
-            MODPACKS
-          </Link>
-        </li>   
       </ul>
     </div>
   );

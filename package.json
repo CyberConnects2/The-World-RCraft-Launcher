@@ -1,7 +1,7 @@
 {
-  "name": "gdlauncher",
-  "version": "0.12.3",
-  "description": "GDLauncher is simple, yet powerful Minecraft custom launcher with a strong focus on the user experience",
+  "name": "rcraftlauncher",
+  "version": "1.0.0",
+  "description": "The World R:Craft New Launcher",
   "keywords": [
     "minecraft",
     "launcher",
@@ -13,19 +13,19 @@
     "sass",
     "webpack"
   ],
-  "homepage": "https://github.com/gorilla-devs/GDLauncher",
+  "homepage": "https://github.com/CyberConnects2/GDLauncher",
   "bugs": {
-    "url": "https://github.com/gorilla-devs/GDLauncher/issues"
+    "url": "https://github.com/CyberConnects2/GDLauncher/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gorilla-devs/GDLauncher.git"
+    "url": "git+https://github.com/CyberConnects2/GDLauncher.git"
   },
   "license": "MIT",
   "author": {
-    "name": "GorillaDevs",
-    "email": "info@gdevs.io",
-    "url": "https://gdevs.io"
+    "name": "AzureDoom",
+    "email": "rcraft@twilightgamesstudio.com",
+    "url": "https://twilightgamesstudio.com/games/rcraft/"
   },
   "main": "./app/main.prod.js",
   "scripts": {

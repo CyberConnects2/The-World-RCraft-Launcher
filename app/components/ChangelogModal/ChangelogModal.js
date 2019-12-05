@@ -12,7 +12,7 @@ export default props => {
   }, []);
 
   const openDiscord = () => {
-    require('electron').shell.openExternal('https://discord.gg/ZxRxPqn');
+    require('electron').shell.openExternal('https://discord.gg/5QTdaBs');
   };
 
   return (
@@ -45,10 +45,6 @@ export default props => {
               secondary=" yeeee"
             />
             <ChangelogRow
-              main="Added support for Minecraft Forge 1.13"
-              secondary=". Don't tilt if it looks like it's frozen, it may take a while"
-            />
-            <ChangelogRow
               main="Added support for custom path for instances"
               secondary=". After changing it, you'll need to restart the launcher"
             />
@@ -72,10 +68,6 @@ export default props => {
             <ChangelogRow
               main="The mods counter now shows the correct number of installed mods"
               secondary=", ouga buga"
-            />
-            <ChangelogRow
-              main="Finally fixed the login token!!"
-              secondary=", you won't need to login every time ever again :)"
             />
             <ChangelogRow
               main="Even though you don't see them"

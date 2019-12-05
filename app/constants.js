@@ -12,7 +12,7 @@ export const APPPATH = getAppPath();
 export const DATAPATH = path.join(
   process.env.APPDATA ||
     (electron.app || electron.remote.app).getPath('userData'),
-  'GDLauncher'
+  'TheWorldRCraft'
 );
 export const CLASSPATH_DIVIDER_CHAR = platform() === WINDOWS ? ';' : ':';
 export const LAUNCHER_FOLDER = 'launcherData';
@@ -26,10 +26,10 @@ export const GAME_VERSIONS_URL =
 export const FORGE_PROMOS =
   'https://addons-ecs.forgesvc.net/api/v2/minecraft/modloader';
 export const ACCESS_TOKEN_VALIDATION_URL =
-'https://authserver.mojang.com/validate';
+'https://twilightgamesstudio.com/games/rcraft/validate.php';
 
 // Mojang API Endpoints
-export const LOGIN_API = 'https://authserver.mojang.com/authenticate';
+export const LOGIN_API = 'https://twilightgamesstudio.com/games/rcraft/verification.php';
 export const ACCESS_TOKEN_REFRESH_URL = 'https://authserver.mojang.com/refresh';
 
 export const MAVEN_REPO = 'http://central.maven.org/maven2';

@@ -72,22 +72,7 @@ export default class DManager extends Component<Props> {
         <div className={styles.header}>
           <div className={styles.headerButtons}>
             <div>
-              <Link to="/curseModpacksBrowser">
-                <Button type="primary" className={styles.browseModpacks}>
-                  Browse Curse Modpacks
-                </Button>
-              </Link>
-            </div>
-            <div>
               <Button.Group>
-                <Link
-                  to={{
-                    pathname: '/InstanceCreatorModal',
-                    state: { modal: true }
-                  }}
-                >
-                  <Button type="primary">Add New Instance</Button>
-                </Link>
                 <Link
                   to={{
                     pathname: '/importPack',

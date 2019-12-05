@@ -30,7 +30,7 @@ const FormItem = Form.Item;
 // This is awful but it gets the primary color in real time
 
 function Login(props) {
-  const [fastLogin, setFastLogin] = useState(true);
+  const [fastLogin, setFastLogin] = useState(false);
   const [nativeLauncherProfiles, setNativeLauncherProfiles] = useState(false);
   const { t } = useTranslation();
   const [colors, setColors] = useState(
@@ -77,12 +77,12 @@ function Login(props) {
         }}
       >
         <div className={styles.login_form}>
-          <h1 style={{ textAlign: 'center', fontSize: 30 }}>{t('MojangLogin', 'Mojang Login')}</h1>
+          <h1 style={{ textAlign: 'center', fontSize: 30 }}>{t('MojangLogin', 'Twilight Games Studio Login')}</h1>
           <Form onSubmit={handleSubmit}>
             <FormItem>
               {getFieldDecorator('username', {
                 rules: [
-                  { required: true, message: t('InputEmail', 'Please Input Your Email') }
+                  { required: true, message: t('InputEmail', 'Please Input Your Memmber Address') }
                 ],
                 initialValue: store.has('lastUsername')
                   ? store.get('lastUsername')
@@ -101,7 +101,7 @@ function Login(props) {
                       style={{ color: 'rgba(255,255,255,.8)' }}
                     />
                   }
-                  placeholder={t('Email', 'Email')}
+                  placeholder={t('Email', 'Memmber Address')}
                 />
               )}
             </FormItem>
@@ -160,26 +160,6 @@ function Login(props) {
               </Button>
             </FormItem>
           </Form>
-          {nativeLauncherProfiles && (
-            <Button
-              icon="forward"
-              loading={props.nativeLoading}
-              size="large"
-              type="primary"
-              className={styles.login_form_button}
-              style={{ marginTop: '30px' }}
-              onClick={() => props.tryNativeLauncherProfiles()}
-            >
-              <span>
-                {t('LoginAs', 'Login As')}{' '}
-                <span
-                  style={{ fontStyle: 'italic', textDecoration: 'underline' }}
-                >
-                  {nativeLauncherProfiles}
-                </span>
-              </span>
-            </Button>
-          )}
         </div>
         <div
           style={{
@@ -213,8 +193,7 @@ function mapStateToProps(state) {
 }
 
 const mapDispatchToProps = {
-  login,
-  tryNativeLauncherProfiles
+  login
 };
 
 export default connect(
