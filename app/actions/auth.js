@@ -1,4 +1,5 @@
 import axios from 'axios';
+import sha1 from 'sha1';
 import { push } from 'connected-react-router';
 import { message } from 'antd';
 import path from 'path';
@@ -36,13 +37,17 @@ export function login(username, password, remember) {
             version: 1
           },
           username,
-          password,
+          hashedPass: sha1(password),
           requestUser: true,
           clientToken: getClientToken()
         },
         { headers: { 'Content-Type': 'application/json' } }
       );
-      if (status === 200 && data && data.accessToken) {
+      if (status === 200 && data && data.error){
+        message.error(data.errorMessage);
+        dispatch( { type: AUTH_FAILED } );
+      }
+      else if (status === 200 && data && data.accessToken) {
         const payload = {
           email: username,
           username: data.user.username,
@@ -77,14 +82,12 @@ export function login(username, password, remember) {
           dispatch(push('/newUserPage'));
         }
       } else {
-        message.error('Wrong username or password');
-        dispatch({
-          type: AUTH_FAILED
-        });
+        message.error('Unknown Error. Please try again later.');
+        dispatch( { type: AUTH_FAILED } );
       }
     } catch (err) {
       console.error(err);
-      message.error('Wrong username or password');
+      message.error('Unknown Error. Please try again later');
     } finally {
       dispatch({
         type: STOP_AUTH_LOADING
