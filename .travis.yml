@@ -1,78 +1,79 @@
 matrix:
   include:
-    - os: osx
-      language: node_js
-      node_js:
-        - 12
-      env:
-        - ELECTRON_CACHE=$HOME/.cache/electron
-        - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
-
-    - os: linux
-      language: node_js
-      services:
-        - xvfb
-      node_js:
-        - 12
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - gcc-multilib
-            - g++-8
-            - g++-multilib
-            - icnsutils
-            - graphicsmagick
-            - xz-utils
-            - xorriso
-            - rpm
-      before_install:
-        # This should fix https://github.com/travis-ci/travis-ci/issues/9630
-        - sudo chown -R travis:travis $HOME/.cache
-        - sudo chown -R travis:travis $TRAVIS_BUILD_DIR/node_modules
+  - os: osx
+    language: node_js
+    node_js:
+    - 12
+    env:
+    - ELECTRON_CACHE=$HOME/.cache/electron
+    - ELECTRON_BUILDER_CACHE=$HOME/.cache/electron-builder
+  - os: linux
+    language: node_js
+    services:
+    - xvfb
+    node_js:
+    - 12
+    addons:
+      apt:
+        sources:
+        - ubuntu-toolchain-r-test
+        packages:
+        - gcc-multilib
+        - g++-8
+        - g++-multilib
+        - icnsutils
+        - graphicsmagick
+        - xz-utils
+        - xorriso
+        - rpm
+    before_install:
+    - sudo chown -R travis:travis $HOME/.cache
+    - sudo chown -R travis:travis $TRAVIS_BUILD_DIR/node_modules
 before_cache:
-  - rm -rf $HOME/.cache/electron-builder/wine
-
+- rm -rf $HOME/.cache/electron-builder/wine
 cache:
   yarn: true
   directories:
-    - node_modules
-    - $(npm config get prefix)/lib/node_modules
-    - flow-typed
-    - $HOME/.cache/electron
-    - $HOME/.cache/electron-builder
-
+  - node_modules
+  - "$(npm config get prefix)/lib/node_modules"
+  - flow-typed
+  - "$HOME/.cache/electron"
+  - "$HOME/.cache/electron-builder"
 before_install:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export CXX="g++-8"; fi
-
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export CXX="g++-8"; fi
 install:
-  - yarn
-  # On Linux, initialize "virtual display". See before_script
-  - |
-    if [ "$TRAVIS_OS_NAME" == "linux" ]; then
-      /sbin/start-stop-daemon \
-      --start \
-      --quiet \
-      --pidfile /tmp/custom_xvfb_99.pid \
-      --make-pidfile \
-      --background \
-      --exec /usr/bin/Xvfb \
-      -- :99 -ac -screen 0 1280x1024x16
-    else
-      :
-    fi
-
+- yarn
+- |
+  if [ "$TRAVIS_OS_NAME" == "linux" ]; then
+    /sbin/start-stop-daemon \
+    --start \
+    --quiet \
+    --pidfile /tmp/custom_xvfb_99.pid \
+    --make-pidfile \
+    --background \
+    --exec /usr/bin/Xvfb \
+    -- :99 -ac -screen 0 1280x1024x16
+  else
+    :
+  fi
 before_script:
-  # On Linux, create a "virtual display". This allows browsers to work properly
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export DISPLAY=:99.0; fi
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sleep 3; fi
-
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export DISPLAY=:99.0; fi
+- if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sleep 3; fi
 script:
-  - yarn package-ci
-  # - yarn lint
-  # - yarn flow
-  # HACK: Temporarily ignore `yarn test` on linux
-  # - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then yarn test; fi
-  # - yarn build-e2e
-  # - yarn test-e2e
+- yarn package-ci
+deploy:
+  provider: releases
+  skip_cleanup: true
+  draft: true
+  file:
+  - release/latest-mac.yml
+  - release/latest-linux.yml
+  - release/latest.yml
+  - release/TheWorldRCraftLauncher-win-setup.exe
+  - release/TheWorldRCraftLauncher-linux-setup.AppImage
+  - release/TheWorldRCraftLauncher-mac-setup.dmg
+  on:
+    repo: CyberConnects2/The-World-RCraft-Launcher
+env:
+  global:
+    secure: cxGK7dXz+4u/yPJt4jD3Mlz35EjtpJOZ6C0ogNaMPTDLzrsQEEAbn3ANgwXGwAaaEG1/UljGyjfkBCL/RSA9xxeosUbT/nL/oypAk3YFKJvP4zX7jYobb/68rlNam0Jt5M/8nMXHISFdQZ8U4mY8ZHZhJm49+O4KjuwJFIfKZ/M7avRqmZQBxTsLxca5dgtxJi7F0hevBcA2gDotbBdJxJ3ooE/OxFk96h/miDQrjdYUpva7LGB8H7Veje4sJJ1AJkwEMrAUGNY3lyFtm9jWeB3MezzmXaFInis/KUjySqzVIhFrdmDw8kg4D8rmCxAj+2YZEl/wZTOSWYRZgwnTYXnJn4nYHRm+LxWzZ0V1fusSECbXnWWuunxr59Ij8BBTVVyGltVrgYqcVdDZ8rs8GfM6SnoVznFYYF/YsNHjzxfyQ+KIik7JOSDG77uX43gWnIaJvJkKR/HQhRb8weeF9lcVVNZ4JW0yv9klDWhA2ui+uaqEasxiboTYwLfrPcPznqsmAIl+SuGHmVeRRjyTNaxPekjYbwP1yJGRi9kM12jBhCgdxtVBlNmul8n2tuagZp1AyHz9amxCxKp6ljnif1sw2cGW18joIx6phLQsiJl++Tmd6LYzTUT8+/8RVhi6aReJTT9aN8rQJ3MO+UtDPeGrwZJDLUefiNvl+inHSmM=

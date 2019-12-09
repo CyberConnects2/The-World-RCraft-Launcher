@@ -62,11 +62,11 @@ const NewUserPage = props => {
                 ...internalDivStyles[state]
               }}
             >
-              <h1 style={{ fontSize: 37 }}>{t('WelcomeToTheWorldRCraft', 'Welcome to TheWorldRCraft!')}</h1>
+              <h1 style={{ fontSize: 37 }}>{t('WelcomeToTheWorldRCraft', 'Welcome to The World RCraft!')}</h1>
               <div style={{ display: 'flex' }}>
                 <p style={{ fontSize: 25 }}>
                   {t('helloUser', `Hello ${props.username}!`)}<br />
-                  {t('TheWorldRCraftOpenSource', 'TheWorldRCraft is free and open source, it wouldn\'t exist without its community. If you find any bug or have any suggestion, tell us on Discord!')}
+                  {t('TheWorldRCraftOpenSource', 'TheWorldRCraft is a free and open source Minecraft modpack that wouldn\'t exist without its community. If you find any bugs or have any suggestions, come tell us on Discord!')}
                   <br />
                   <br />
                   {t('HappyGaming', 'Happy gaming!')}
@@ -76,7 +76,7 @@ const NewUserPage = props => {
                     marginTop: '-70px',
                     paddingLeft: 30
                   }}
-                  src="https://discordapp.com/widget?id=398091532881756161&theme=dark"
+                  src="https://discordapp.com/widget?id=230045976100995074&theme=dark"
                   width="350"
                   height="515"
                   allowTransparency="true"
@@ -93,7 +93,7 @@ const NewUserPage = props => {
                   fontSize: 25
                 }}
               >
-                {t('GotIt', 'GOT IT')}
+                {t('GotIt', 'CONTINUE')}
               </DelayLink>
             </div>
           </div>

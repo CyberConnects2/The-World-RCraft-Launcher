@@ -48,21 +48,6 @@ export default class Home extends Component<Props> {
         <main className={styles.content}>
           <div className={styles.innerContent}>
             <div className={styles.cards}>
-              <Card
-                style={{
-                  height: 'auto',
-                  width: '100%',
-                  minWidth: 420,
-                  display: 'block',
-                  marginTop: 15,
-                  textAlign: 'center'
-                }}
-                title={`The World R:Craft`}
-              >
-                <div>
-				  <img width='100%' height="273" src="https://i.imgur.com/lEanUis.jpg"></img>
-                </div>
-              </Card>
 			  <Card
                 style={{
                   height: 'auto',
@@ -74,19 +59,12 @@ export default class Home extends Component<Props> {
                 }}
                 title={`Welcome ${this.props.username} to The World R:Craft`}
               >
-                <div className={styles.firstCard}>
-                  <div>
-                    You can find us here:
-                    <div className={styles.discord}>
-                      <a href="https://discord.gg/ZxRxPqn">Discord</a>
-                    </div>
-                    <div className={styles.github}>
-                      <a href="https://github.com/CyberConnects2/GDLauncher">
-                        Github
-                      </a>
-                    </div>
-                  </div>
+				<div>
+					<img width='100%' height="273" src="https://i.imgur.com/lEanUis.jpg"></img>
                 </div>
+                <div>
+					<img width='100%' height="100%" src="https://i.imgur.com/YIISWtx.png"></img>
+				</div>
               </Card>
             </div>
           </div>

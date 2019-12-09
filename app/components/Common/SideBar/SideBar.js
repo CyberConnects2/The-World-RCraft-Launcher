@@ -112,47 +112,13 @@ const SideBar = props => {
                 src={forgeIcon}
                 style={{
                   position: 'relative',
-                  width: 50,
-                  height: 50,
-                  top: -25,
-                  right: 25,
+                  width: 64,
+                  height: 64,
+                  top: 0,
+                  right: 0,
                   borderRadius: '2px'
                 }}
               />
-            )}
-            <div
-              style={{
-                position: 'relative',
-                top: 30,
-                background: '#c0392b',
-                width: 150,
-                height: 30,
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                left: 25
-              }}
-            >
-              <span style={{ padding: '0 5px' }}>MC version:</span>
-              <span style={{ padding: '0 5px' }}>{instanceData.version}</span>
-            </div>
-            {instanceData.forgeVersion !== null && (
-              <div
-                style={{
-                  position: 'relative',
-                  top: 40,
-                  background: '#f39c12',
-                  width: 150,
-                  height: 30,
-                  display: 'flex',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                  left: 25
-                }}
-              >
-                <span style={{ padding: '0 5px' }}>mods:</span>
-                <span style={{ padding: '0 5px' }}>{instanceData.mods}</span>
-              </div>
             )}
             <div
               style={{

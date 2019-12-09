@@ -34,7 +34,7 @@ export default props => {
       }}
     >
       <div className={styles.inside_content}>
-        <h1>TheWorldRCraft Autoupdater</h1>
+        <h1>The World RCraft Autoupdater</h1>
         We are currently updating the launcher, depending on your connection it
         may take a while. Go grab a cup of coffee while we finish this for you
         <Progress style={{ marginTop: 70 }} percent={percentage} />

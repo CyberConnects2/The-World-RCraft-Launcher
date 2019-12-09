@@ -32,45 +32,16 @@ const MyAccount = props => {
       <Title>{t('MyAccount', 'My Account')}</Title>
       <div className={styles.accountInfo}>
         <div>
-          <CIcon size={70}>{props.username.charAt(0).toUpperCase()}</CIcon>
+          <CIcon size={70}><img src="https://twilightgamesstudio.com/games/rcraft/skins/Skin.php?size=57&player=${this.props.username}"></img></CIcon>
         </div>
         <div>
-          <span>{t('Username', 'Username')}</span>
+          <div className={styles.divider} />
+		  <span>{t('Username', 'Username')}</span>
           <span className={styles.info}>{props.username}</span>{' '}
           <CopyIcon text={props.username} />
           <div className={styles.divider} />
-          <span>{t('Email', 'Email')}</span>
-          <span className={styles.info}>{props.email}</span>{' '}
-          <CopyIcon text={props.email} />
         </div>
       </div>
-      <Title>{t('Preferences', 'Preferences')}</Title>
-      <SettingCard>
-        <SwitchSetting
-          mainText={t('EnableSoundsTitle', 'Enable Sounds')}
-          description={t('EnableSoundsDescription', 'Enable sounds to be played when specific actions are triggered')}
-          icon="sound"
-          checked={props.settings.sounds}
-          onChange={props.setSounds}
-        />
-        <SelectSetting
-          mainText={<span>{t('ReleaseChannel', 'Release Channel')}</span>}
-          description={t('ReleaseChannelDescription', 'Stable updates once a month, beta does update more often but it may have more bugs.')}
-          icon="rocket"
-          onChange={v => {
-            setChannel(v);
-            store.set(
-              'settings.releaseChannel',
-              v === 'Beta' ? 'beta' : 'latest'
-            );
-            message.info(
-              t('NeedToRestartToApplyChange', 'In order to apply this change you need to restart the launcher')
-            );
-          }}
-          options={['Stable', 'Beta']}
-          defaultValue={channel}
-        />
-      </SettingCard>
     </div>
   );
 };

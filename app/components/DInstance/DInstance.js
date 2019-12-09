@@ -289,70 +289,12 @@ export default class DInstance extends Component<Props> {
             </span>{' '}
             Open Folder
           </MenuItem>
-          <MenuItem
-            onClick={() => {
-              exec(
-                `powershell $s=(New-Object -COM WScript.Shell).CreateShortcut('%userprofile%\\Desktop\\${name}.lnk');$s.TargetPath='${path.join(
-                  APPPATH,
-                  'TheWorldRCraft.exe'
-                )}';$s.Arguments='-i ${name}';$s.Save()`,
-                error => {
-                  if (error) {
-                    log.error(`Error creating instance symlink: ${error}`);
-                    message.error(
-                      <span>
-                        Error while crerating the shortcut. Click{' '}
-                        <a
-                          href="https://github.com/gorilla-devs/GDLauncher/wiki/Error-while-creating-an-instance's-shortcut"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          here
-                        </a>{' '}
-                        to know more
-                      </span>
-                    );
-                  }
-                }
-              );
-            }}
-            disabled={
-              this.isInstalling() ||
-              process.platform !== 'win32' ||
-              !isValid ||
-              process.env.NODE_ENV === 'development'
-            }
-          >
-            <span>
-              <FontAwesomeIcon icon={faLink} />
-            </span>{' '}
-            Create Shortcut
-          </MenuItem>
           {/* <MenuItem
             disabled={this.isInstalling() || !isValid}
             onClick={() => {}}
           >
             <FontAwesomeIcon icon={faCopy} /> Duplicate
           </MenuItem> */}
-          <MenuItem
-            disabled={
-              this.isInstalling() ||
-              !isValid ||
-              playing.find(el => el.name === name)
-            }
-            data={{ foo: 'bar' }}
-            onClick={() =>
-              history.push({
-                pathname: `/exportPackModal/${name}`,
-                state: { modal: true }
-              })
-            }
-          >
-            <span>
-              <FontAwesomeIcon icon={faTruckMoving} />
-            </span>{' '}
-            Export
-          </MenuItem>
           <MenuItem
             disabled={
               this.isInstalling() ||

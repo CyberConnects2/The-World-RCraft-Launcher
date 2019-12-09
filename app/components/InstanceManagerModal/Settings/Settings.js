@@ -145,15 +145,6 @@ function Instances(props: Props) {
               </div>
             </div>
           </Form>
-          <Card style={{ marginTop: 15 }} title="Forge Manager">
-            {!checkingForge ? (
-              <ForgeManager
-                name={props.instance}
-                data={instanceConfig}
-                closeModal={props.close}
-              />
-            ) : null}
-          </Card>
           <JavaManagerCard instanceName={props.instance} />
         </div>
       </div>

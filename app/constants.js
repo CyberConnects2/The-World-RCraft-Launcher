@@ -51,7 +51,7 @@ export const DEFAULT_ARGS = `-Dfml.ignorePatchDiscrepancies=true -Dfml.ignoreInv
 } -Xms256m`;
 export const DEFAULT_MEMORY = 4096;
 export const UPDATE_URL =
-  'https://raw.githubusercontent.com/CyberConnects2/GDLauncher/master/package.json';
+  'https://raw.githubusercontent.com/CyberConnects2/The-World-RCraft-Launcher/master/package.json';
 export const THEMES = {
   default: {
     name: 'Default',

@@ -138,15 +138,14 @@ if (minimist(process.argv.slice(1)).i) {
 
 
       // Sets the DISCORD-RPC
-      const clientId = '555898932467597312';
+      const clientId = '222718589675896833';
       let rpc = new DiscordRPC.Client({ transport: 'ipc' });
       rpc.once('ready', () => {
         rpc.setActivity({
           details: `Playing`,
-          state: 'The World R:Craft',
           startTimestamp: Math.floor(Date.now() / 1000),
-          largeImageKey: 'default_big',
-          largeImageText: 'TheWorldRCraft - A Custom Minecraft Launcher',
+          largeImageKey: 'theworldrcraftlogo_3',
+          largeImageText: 'The World RCraft - A Custom Minecraft Launcher',
           instance: false,
         });
       });

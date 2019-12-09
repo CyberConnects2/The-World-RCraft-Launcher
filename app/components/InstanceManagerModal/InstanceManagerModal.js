@@ -184,12 +184,6 @@ class InstanceManagerModal extends Component<Props> {
             >
               Settings
             </MenuItem>
-            <MenuItem
-              active={this.props.match.params.page === 'mods'}
-              to={`/editInstance/${this.props.match.params.instance}/mods/local/${this.state.version}`}
-            >
-              Mods Manager
-            </MenuItem>
             {this.state.isModpack && (
               <MenuItem
                 active={this.props.match.params.page === 'modpackVersions'}
@@ -198,24 +192,6 @@ class InstanceManagerModal extends Component<Props> {
                 Modpack Versions
               </MenuItem>
             )}
-            <MenuItem
-              active={this.props.match.params.page === 'resourcepacks'}
-              to={`/editInstance/${this.props.match.params.instance}/resourcepacks`}
-            >
-              Resource Packs
-            </MenuItem>
-            <MenuItem
-              active={this.props.match.params.page === 'worlds'}
-              to={`/editInstance/${this.props.match.params.instance}/worlds`}
-            >
-              Worlds
-            </MenuItem>
-            <MenuItem
-              active={this.props.match.params.page === 'screenshots'}
-              to={`/editInstance/${this.props.match.params.instance}/screenshots`}
-            >
-              Screenshots
-            </MenuItem>
           </SideMenu>
           <div className={styles.content}>
             <Route

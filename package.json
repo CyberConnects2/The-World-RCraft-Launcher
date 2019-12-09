@@ -13,13 +13,13 @@
     "sass",
     "webpack"
   ],
-  "homepage": "https://github.com/CyberConnects2/GDLauncher",
+  "homepage": "https://github.com/CyberConnects2/The-World-RCraft-Launcher",
   "bugs": {
-    "url": "https://github.com/CyberConnects2/GDLauncher/issues"
+    "url": "https://github.com/CyberConnects2/The-World-RCraft-Launcher/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CyberConnects2/GDLauncher.git"
+    "url": "git+https://github.com/CyberConnects2/The-World-RCraft-Launcher.git"
   },
   "license": "MIT",
   "author": {
@@ -164,6 +164,7 @@
     "redux-logger": "^3.0.6",
     "rimraf": "^3.0.0",
     "sass-loader": "^8.0.0",
+	"sha1": "^1.1.1",
     "sinon": "^7.4.1",
     "spectron": "^8.0.0",
     "style-loader": "^1.0.0",
@@ -253,8 +254,8 @@
   "browserslist": "electron 1.6",
   "build": {
     "generateUpdatesFilesForAllChannels": true,
-    "productName": "GDLauncher",
-    "appId": "org.gorilladevs.GDLauncher",
+    "productName": "TheWorldRCraftLauncher",
+    "appId": "com.CyberConnects2.TheWorldRCraftLauncher",
     "files": [
       "!node_modules",
       "app/splash.html",
@@ -308,8 +309,8 @@
     },
     "publish": {
       "provider": "github",
-      "owner": "gorilla-devs",
-      "repo": "GDLauncher",
+      "owner": "CyberConnects2",
+      "repo": "The-World-RCraft-Launcher",
       "private": false
     }
   },
@@ -338,5 +339,5 @@
       "git add"
     ]
   },
-  "productName": "GDLauncher"
+  "productName": "TheWorldRCraftLauncher"
 }
