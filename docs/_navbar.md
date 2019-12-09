@@ -2,6 +2,6 @@
 	<div style="float:left"><img src="/img/logo.png" height="50" style="vertical-align:middle"> The World R:Craft Guide</div>
 	<a href="http://forums.twilightgamesstudio.com/"><img src="http://www.twilightgamesstudio.com/mainSite/img/CC2_Logo.png" height="20" style="vertical-align:middle"></a> |
 	<a href="https://discord.gg/Jyn5m6Q"><img src="img/discord.png" height="20" style="vertical-align:middle"></a> |
-	<a href="https://github.com/CyberConnects2/TheWorldRCraftLauncher/"><img src="img/github-repo.png" height="20" style="vertical-align:middle"></a>
-    &nbsp;&nbsp;<a href="https://cyberconnects2.github.io/TheWorldRCraftLauncher/light/#/"><img src="img/switch_mode.png" height="20" style="vertical-align:middle"></a>
+	<a href="https://cyberconnects2.github.io/The-World-RCraft-Launcher/"><img src="img/github-repo.png" height="20" style="vertical-align:middle"></a>
+    &nbsp;&nbsp;<a href="https://cyberconnects2.github.io/The-World-RCraft-Launcher/light/#/"><img src="img/switch_mode.png" height="20" style="vertical-align:middle"></a>
 </nav>
