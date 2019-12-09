@@ -7,7 +7,8 @@
 	- [PT.1: Downloads](downloads.md)
 	- [PT.2: Making an account](account.md)
 	- [PT.3: Skin Changer](skin-changer.md)
-	- [PT.4: Initialization](initialization.md)
+	- [PT.4: Intalling the modpack](installing.md)
+	- [PT.5: Initialization](initialization.md)
 	
 * Gameplay & Features
 	- [Basic Keyboard Controls](keyboard-controls.md)

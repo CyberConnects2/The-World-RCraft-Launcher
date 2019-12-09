@@ -1,4 +1,4 @@
-Skin Changer
+Part 3: Skin Changer
 ---
 
 You guessed it, this feature allows you to change your skin on the fly! Open the Skin Changer [here](https://twilightgamesstudio.com/games/rcraft/SkinChanger.php)!

@@ -1,4 +1,4 @@
-Part 3: Initialization
+Part 5: Initialization
 ---
 
 This section mostly focuses on how you can start in the game.
