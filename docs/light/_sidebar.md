@@ -9,6 +9,7 @@
 	- [PT.3: Skin Changer](skin-changer.md)
 	- [PT.4: Installing the modpack](installing.md)
 	- [PT.5: Initialization](initialization.md)
+	- [PT.6: Updating Your Game](updating.md)
 	
 * Gameplay & Features
 	- [Basic Keyboard Controls](keyboard-controls.md)
