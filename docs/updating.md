@@ -1,4 +1,4 @@
-Part 4: Installing the Game
+Part 6: Updating the Game
 ---
 1. Right Click the Game in the launcher.
 
