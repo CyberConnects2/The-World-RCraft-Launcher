@@ -18,8 +18,6 @@ Part 4: Installing the Game
 
 5. Now click the Update Modpack button to download new update.
 
-![alt](https://i.imgur.com/PIDTmV1.png)
-
 6. The update will now install. 
 
 ![alt](https://i.imgur.com/AKbRCU7.png)
