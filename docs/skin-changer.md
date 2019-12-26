@@ -1,7 +1,7 @@
 Part 3: Skin Changer
 ---
 
-You guessed it, this feature allows you to change your skin on the fly! Open the Skin Changer [here](https://twilightgamesstudio.com/games/rcraft/SkinChanger.php)!
+You guessed it, this feature allows you to change your skin on the fly! Open the Skin Changer [here](https://forums.twilightgamesstudio.com/RCraft/SkinChanger.php)!
 
 1. Open the Skin Changer.
 2. Log in with your CyberConnects2 account.
