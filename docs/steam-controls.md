@@ -14,7 +14,7 @@ Steam Controller
 
 <img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Up.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_L.png"> Quest Log
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Down.png"> <img height="25" style="vertical-align:middle" src=../"img/controls/keyboard/key-letter_T.png"> Open Chat
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Down.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_T.png"> Open Chat
 
 <img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Left.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_P.png"> View Stats
 
