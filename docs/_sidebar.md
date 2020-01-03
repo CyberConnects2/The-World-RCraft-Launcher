@@ -3,7 +3,7 @@
 	- [About](about.md)
 	- [FAQ](faq.md)
 	
-* Getting started
+* Custom Launcher
 	- [PT.1: Downloads](downloads.md)
 	- [PT.2: Making an account](account.md)
 	- [PT.3: Skin Changer](skin-changer.md)
@@ -24,4 +24,4 @@
 	- [Steam Controller Profiles](steam-controls.md)
 	
 * Credits
-	- [Mods](mods.md)
+	- [Mods](https://www.curseforge.com/minecraft/modpacks/the-world-r-craft/files)
