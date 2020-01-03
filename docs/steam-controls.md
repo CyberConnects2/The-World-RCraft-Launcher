@@ -4,21 +4,21 @@ Steam Controller Profiles
 ![](img/controls/steam-layout.png)<br>
 Steam Controller
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_A.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key_SPACE.png"> Jump 
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_A.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_SPACE.png"> Jump 
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_B.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key-letter_F.png"> Secondary Hand
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_B.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_F.png"> Secondary Hand
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_X.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key_CLICK-R.png"> NPC Interaction & Use Item
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_X.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key_CLICK-R.png"> NPC Interaction & Use Item
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Y.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key-letter_R.png"> Inventory
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Y.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_R.png"> Inventory
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Up.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key-letter_L.png"> Quest Log
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Up.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_L.png"> Quest Log
 
 <img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Down.png"> <img height="25" style="vertical-align:middle" src=../"img/controls/keyboard/key-letter_T.png"> Open Chat
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Left.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key-letter_P.png"> View Stats
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Left.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_P.png"> View Stats
 
-<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Right.png"> <img height="25" style="vertical-align:middle" src="..img/controls/keyboard/key-letter_I.png"> Player Interaction
+<img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Left_Track_Right.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_I.png"> Player Interaction
 
 <img height="25" style="vertical-align:middle" src="img/controls/steam/Steam_Stick.png"> <img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_W.png"><img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_A.png"><img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_S.png"><img height="25" style="vertical-align:middle" src="img/controls/keyboard/key-letter_D.png"> Movement
 
