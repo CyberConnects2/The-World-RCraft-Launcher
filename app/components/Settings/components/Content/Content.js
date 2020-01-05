@@ -6,6 +6,7 @@ import MyAccount_Preferences from '../MyAccount_Preferences/MyAccount_Preference
 import Instances from '../Instances/Instances';
 import JavaManager from '../JavaManager/JavaManager';
 import UserInterface from '../UserInterface/UserInterface';
+import Source from '../Source/Source';
 
 const Content = ({ match }) => {
   return (
@@ -18,6 +19,7 @@ const Content = ({ match }) => {
         <Route path="/settings/java" component={JavaManager} />
         <Route path="/settings/instances" component={Instances} />
         <Route path="/settings/ui" component={UserInterface} />
+        <Route path="/settings/source" component={Source} />
       </div>
     </div>
   );

@@ -79,7 +79,7 @@ const SideBar = props => {
         <div className={styles.header}>
           <span>
             <CIcon size={32}>
-              {<img src="https://twilightgamesstudio.com/games/rcraft/skins/Face.php?size=70&player=$props.username" width="32" height="32"></img>}
+              {<img src="http://twilightgamesstudio.com/games/rcraft/face.php?user=$props.username" width="32" height="32"></img>}
             </CIcon>
           </span>
           <span>{props.username}</span>
