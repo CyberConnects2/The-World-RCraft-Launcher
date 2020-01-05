@@ -15,7 +15,6 @@
 - [Versioning](#-versioning)
 - [Authors](#-authors)
 - [License](#-license)
-- [Todos](#-todos)
   </details>
 
 The World R:Craft Launcher is a custom open source version of the GDLauncher Minecraft launcher written in electron/react.
