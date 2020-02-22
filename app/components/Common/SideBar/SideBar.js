@@ -88,66 +88,7 @@ const SideBar = props => {
           </div>
         </div>
       </div>
-      <div className={styles.instanceTitle}>
-        <h2>Instance Overview</h2>
-        {instanceData !== null ? (
-          <div style={{ marginTop: 10 }}>
-            <h3 style={{ color: '#c2c2c2' }}>{props.selectedInstance}</h3>
-            <img
-              src={instanceData.thumbnail || vanillaCover}
-              style={{
-                position: 'relative',
-                left:
-                  instanceData.forgeVersion === null || instanceData.thumbnail
-                    ? 0
-                    : 25,
-                height: 100,
-                width: 150,
-                objectFit: 'cover',
-                borderRadius: 2
-              }}
-            />
-            {instanceData.forgeVersion !== null && !instanceData.thumbnail && (
-              <img
-                src={forgeIcon}
-                style={{
-                  position: 'relative',
-                  width: 64,
-                  height: 64,
-                  top: 0,
-                  right: 0,
-                  borderRadius: '2px'
-                }}
-              />
-            )}
-            <div
-              style={{
-                position: 'relative',
-                top: instanceData.forgeVersion !== null ? 50 : 40,
-                background: '#27ae60',
-                width: 150,
-                height: 30,
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                left: 25
-              }}
-            >
-              <span style={{ padding: '0 5px' }}>Played for:</span>
-              <span style={{ padding: '0 5px' }}>
-                {instanceData.timePlayed && instanceData.timePlayed !== null
-                  ? instanceData.timePlayed
-                  : '0'}{' '}
-                m
-              </span>
-            </div>
-          </div>
-        ) : (
-          'No instance selected'
-        )}
-      </div>
       <div className={styles.scroller} />
-      <hr style={{ margin: 0 }} />
       <div className={styles.socialsContainer}>
         {/* eslint-disable */}
         <span className={styles.version}>

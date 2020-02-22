@@ -59,26 +59,5 @@ export const THEMES = {
     'secondary-color-1': '#282c2f',
     'secondary-color-2': '#14181b',
     'secondary-color-3': '#000407'
-  },
-  carrotUniverse: {
-    name: 'Carrot Universe',
-    primary: '#d35400',
-    'secondary-color-1': '#433c8c',
-    'secondary-color-2': '#2f2878',
-    'secondary-color-3': '#1b1464'
-  },
-  concreteLeaf: {
-    name: 'Concrete Leaf',
-    primary: '#16a085',
-    'secondary-color-1': '#3b3f42',
-    'secondary-color-2': '#272b2e',
-    'secondary-color-3': '#13171a'
-  },
-  bloodyMurder: {
-    name: 'Bloody Murder',
-    primary: '#aa1e0f',
-    'secondary-color-1': '#282c2f',
-    'secondary-color-2': '#14181b',
-    'secondary-color-3': '#000407'
   }
 };

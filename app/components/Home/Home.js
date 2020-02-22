@@ -85,11 +85,6 @@ export default class Home extends Component<Props> {
                         Patreon
                       </a>
                     </span>
-                    <div className={styles.patreonContent}>
-                      If you like GDLauncher and you would like it to have even
-                      more features and bug fixes, consider helping us out
-                      supporting the project. Happy Gaming!
-                    </div>
                   </div>
                   <div>
                     You can find GDLauncher here:
@@ -100,12 +95,6 @@ export default class Home extends Component<Props> {
                       <a href="https://github.com/gorilla-devs/GDLauncher">
                         Github
                       </a>
-                    </div>
-                    <div className={styles.instagram}>
-                      <a href="https://instagram.com/gdlauncher">Instagram</a>
-                    </div>
-                    <div className={styles.facebook}>
-                      <a href="https://facebook.com/gorilladevs">Facebook</a>
                     </div>
                   </div>
                 </div>
