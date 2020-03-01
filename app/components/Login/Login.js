@@ -101,7 +101,7 @@ function Login(props) {
                       style={{ color: 'rgba(255,255,255,.8)' }}
                     />
                   }
-                  placeholder={t('Email', 'Memmber Address')}
+                  placeholder={t('Email', 'Member Address')}
                 />
               )}
             </FormItem>
