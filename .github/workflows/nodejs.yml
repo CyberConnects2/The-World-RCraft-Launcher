@@ -28,9 +28,9 @@ jobs:
       - name: yarn lint
         run: |
           yarn lint
-      - name: yarn package-all
+      - name: yarn package
         run: |
-          yarn package-all
+          yarn package
       - uses: actions/upload-artifact@v1
         if: matrix.os == 'macos-latest'
         with:
