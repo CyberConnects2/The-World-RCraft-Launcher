@@ -11,4 +11,4 @@ You guessed it, this feature allows you to change your skin on the fly! Open the
 3. Choose your skin and upload it.
 4. Go in the game, you'll see the change right away.
 
-![](/img/skin-changer-page.png)
+![](https://i.imgur.com/h26ZCqu.png)

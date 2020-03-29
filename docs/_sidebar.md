@@ -6,7 +6,7 @@
 	- [PT.1: Installing the modpack](gdinstalling.md)
 	- [PT.2: Updating Your Game](gdupdating.md)
 	
-* Custom Launcher
+* Twilight Games Studio Launcher
 	- [PT.1: Downloads](downloads.md)
 	- [PT.2: Making an account](account.md)
 	- [PT.3: Skin Changer](skin-changer.md)
