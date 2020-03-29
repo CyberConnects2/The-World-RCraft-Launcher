@@ -18,8 +18,6 @@ Part 1: Installing the Game With GD Launcher
 
 4. Click Download. 
 
-![alt](https://i.imgur.com/27ZrJSG.png)
-
 5. Now select the newest version and hit Create Instance.
 
 ![alt](https://i.imgur.com/leucqss.png)
