@@ -1,4 +1,4 @@
-Part 6: Updating the Game
+Part 5: Updating the Game
 ---
 1. Right Click the Game in the launcher.
 
