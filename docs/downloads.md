@@ -1,9 +1,6 @@
 Part 1: Downloads
 ---
 
-> [!WARNING]
-> All old versions of the launcher that was previously available on either an official website or an old GitHub repo page will no longer work. You need to re-install the launcher from a new GitHub repo page. The download links can be find below or simply click the GitHub link in navbar above.
-
 1. Install the launcher on specified operating system by downloading the installer below.
 2. Ensure the installer isn't blocked by your OS or browser.
 3. Open the installer by double-clicking.
