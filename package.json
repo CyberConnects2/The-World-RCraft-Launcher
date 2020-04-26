@@ -1,7 +1,7 @@
 {
-  "name": "rcraftlauncher",
-  "version": "1.1.2",
-  "description": "The World R:Craft New Launcher",
+  "name": "gdlauncher",
+  "version": "1.2.0",
+  "description": "The World R:Craft Launcher",
   "keywords": [
     "minecraft",
     "launcher",
@@ -15,7 +15,7 @@
   ],
   "homepage": "https://github.com/CyberConnects2/The-World-RCraft-Launcher",
   "bugs": {
-    "url": "https://github.com/CyberConnects2/The-World-RCraft-Launcher/issues"
+    "url": "https://github.com/CyberConnects2/The-World-RCraft-Launcherissues"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "author": {
     "name": "AzureDoom",
     "email": "rcraft@twilightgamesstudio.com",
-    "url": "https://twilightgamesstudio.com/games/rcraft/"
+    "url": "https://twilightgamesstudio.com"
   },
   "main": "./app/main.prod.js",
   "scripts": {
@@ -293,13 +293,15 @@
     },
     "win": {
       "target": [
-        "nsis"
+        "nsis",
+        "zip"
       ],
       "artifactName": "${productName}-win-setup.${ext}"
     },
     "linux": {
       "target": [
-        "AppImage"
+        "AppImage",
+        "zip"
       ],
       "category": "Game",
       "artifactName": "${productName}-linux-setup.${ext}"

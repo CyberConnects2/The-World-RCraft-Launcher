@@ -13,7 +13,7 @@ if (module.hot)
     pureRender: true // RHL will not change render method
   });
 const store = configureStore();
-log.info('Welcome to TheWorldRCraft');
+log.info('Welcome to The World R:Craft Launcher');
 render(
   <AppContainer>
     <Root store={store} history={history} />

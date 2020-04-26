@@ -43,9 +43,6 @@ const Settings = ({ match, history }) => {
           <MenuItem active={match.params.page === 'ui'} to="/settings/ui">
             {t('UserInterface', 'User Interface')}
           </MenuItem>
-          <MenuItem active={match.params.page === 'source'} to="/settings/source">
-            {t('Source', 'Source Code & Credits')}
-          </MenuItem>
         </SideMenu>
         <Content match={match} />
       </div>

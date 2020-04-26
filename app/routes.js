@@ -22,6 +22,7 @@ import { findJavaHome, isGlobalJavaOptions } from './utils/javaHelpers';
 import DManager from './components/DManager/containers/DManagerPage';
 import InstanceManagerModal from './components/InstanceManagerModal/containers/InstanceManagerModal';
 import Settings from './components/Settings/Settings';
+import CurseModpacksBrowser from './components/CurseModpacksBrowser/CurseModpacksBrowser';
 import NewUserPage from './components/NewUserPage/NewUserPage';
 
 const Login = lazy(() => import('./components/Login/Login'));
@@ -34,6 +35,12 @@ const InstanceCreatorModal = lazy(() =>
 
 const loginHelperModal = lazy(() =>
   import('./components/LoginHelperModal/LoginHelperModal')
+);
+const CurseModpacksBrowserCreatorModal = lazy(() =>
+  import('./components/CurseModpacksBrowserCreatorModal/CurseModpacksBrowserCreatorModal')
+);
+const CurseModpackExplorerModal = lazy(() =>
+  import('./components/CurseModpackExplorerModal/CurseModpackExplorerModal')
 );
 const ImportPack = lazy(() => import('./components/ImportPack/ImportPack'));
 const ExportPackModal = lazy(() =>
@@ -119,7 +126,7 @@ class RouteDef extends Component<Props> {
         `${window.innerWidth}x${window.innerHeight}`
       );
       ga(this.props.uuid)
-        .screenview(this.props.location.pathname, 'TheWorldRCraft', this.appVersion)
+        .screenview(this.props.location.pathname, 'GDLauncher', this.appVersion)
         .send();
     }
     if (
@@ -191,6 +198,10 @@ class RouteDef extends Component<Props> {
                 }}
               >
                 <Route path="/dmanager" component={DManager} />
+                <Route
+                  path="/curseModpacksBrowser"
+                  component={CurseModpacksBrowser}
+                />
                 <Route path="/home" component={WaitingComponent(HomePage)} />
               </div>
             </Route>
@@ -202,6 +213,18 @@ class RouteDef extends Component<Props> {
           <Route
             path="/InstanceCreatorModal"
             component={WaitingComponent(InstanceCreatorModal)}
+          />
+        ) : null}
+        {isModal ? (
+          <Route
+            path="/curseModpackBrowserCreatorModal/:addonID"
+            component={WaitingComponent(CurseModpacksBrowserCreatorModal)}
+          />
+        ) : null}
+        {isModal ? (
+          <Route
+            path="/curseModpackExplorerModal/:addonID"
+            component={WaitingComponent(CurseModpackExplorerModal)}
           />
         ) : null}
         {isModal ? (

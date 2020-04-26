@@ -26,7 +26,7 @@ export default props => {
         >
           <Link to="/home" draggable="false" className={styles.a}>
             <FontAwesomeIcon icon={faHome} className={styles.i} />
-            HOME
+            Home
           </Link>
         </li>
         <li
@@ -36,7 +36,7 @@ export default props => {
         >
           <Link to="/dmanager" draggable="false" className={styles.a}>
             <FontAwesomeIcon icon={faPlay} className={styles.i} />
-            INSTANCES
+            Play
           </Link>
         </li>
       </ul>

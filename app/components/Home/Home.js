@@ -10,9 +10,12 @@ import { PACKS_PATH, THEMES } from '../../constants';
 import styles from './Home.scss';
 import Card from '../Common/Card/Card';
 
+// @ts-ignore
 type Props = {};
 
-export default class Home extends Component<Props> {
+export default // @ts-ignore
+class Home extends Component<Props> {
+  // @ts-ignore
   props: Props;
 
   constructor(props) {
@@ -28,15 +31,17 @@ export default class Home extends Component<Props> {
   }
 
   componentDidMount = async () => {
-    try {
-      await promisify(fs.access)(path.join(PACKS_PATH, '1.13.2'));
-      this.setState({ latestInstalled: true });
-    } catch (e) {
-      this.setState({ latestInstalled: false });
-    }
     // Downloads the versions list just the first time
     if (this.props.versionsManifest.length === 0) {
       this.props.getVanillaMCVersions();
+    }
+    if (this.props.latestMCVersions.release) {
+      try {
+        await promisify(fs.access)(path.join(PACKS_PATH, this.props.latestMCVersions.release));
+        this.setState({ latestInstalled: true });
+      } catch (e) {
+        this.setState({ latestInstalled: false });
+      }
     }
   };
 
@@ -48,21 +53,21 @@ export default class Home extends Component<Props> {
         <main className={styles.content}>
           <div className={styles.innerContent}>
             <div className={styles.cards}>
-			        <Card
-                style={{
-                  height: 'auto',
-                  width: '100%',
-                  minWidth: 420,
-                  display: 'block',
-                  marginTop: 15,
-                  textAlign: 'center'
-                }}
-                title={`Welcome ${this.props.username} to The World R:Craft`}
-              >
-				        <div>
-					        <img width='100%' height="273" src="https://i.imgur.com/lEanUis.jpg"></img>
-                </div>
-              </Card>
+			    <Card
+					style={{
+						height: 'auto',
+						width: '100%',
+						minWidth: 420,
+						display: 'block',
+						marginTop: 15,
+						textAlign: 'center'
+					}}
+					title={`Welcome ${this.props.username} to The World R:Craft`}
+				>
+					<div>
+						<img width='100%' height="273" src="https://i.imgur.com/lEanUis.jpg"></img>
+					</div>
+				</Card>
               <Card
                 style={{
                   height: 'auto',

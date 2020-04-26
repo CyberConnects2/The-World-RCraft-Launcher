@@ -77,12 +77,6 @@ const SideBar = props => {
     <aside className={styles.sidenav}>
       <div className={styles.account}>
         <div className={styles.header}>
-          <span>
-            <CIcon size={32}>
-              {<img src="http://twilightgamesstudio.com/games/rcraft/face.php?user=$props.username" width="32" height="32"></img>}
-            </CIcon>
-          </span>
-          <span>{props.username}</span>
           <div onClick={() => props.logout()}>
             <FontAwesomeIcon icon={faSignOutAlt} className={styles.logout} />
           </div>
@@ -90,7 +84,6 @@ const SideBar = props => {
       </div>
       <div className={styles.scroller} />
       <div className={styles.socialsContainer}>
-        {/* eslint-disable */}
         <span className={styles.version}>
           <Link to={{ pathname: '/changelogs', state: { modal: true } }}>
             v{require('../../../../package.json').version}

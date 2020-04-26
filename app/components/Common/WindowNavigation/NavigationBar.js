@@ -23,9 +23,6 @@ export default props => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.logoText}>
-        <img src={logo} height="40px" alt="logo" draggable="false" />
-      </div>
       <HorizontalMenu location={props.location} />
       <Link
         to={{

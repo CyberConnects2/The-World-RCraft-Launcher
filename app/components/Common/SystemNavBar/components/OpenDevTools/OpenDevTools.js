@@ -19,7 +19,7 @@ export default class WindowCloseButton extends Component<Props> {
         <button className={styles.OpenDevTools} onClick={this.OpenDevTools}>
           <FontAwesomeIcon
             icon={faTerminal}
-            style={{ width: '15px', height: '15px' }}
+            style={{ width: '30px', height: '25px' }}
           />
         </button>
       </div>

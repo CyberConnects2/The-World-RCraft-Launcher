@@ -6,20 +6,20 @@
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 180px;
-  width: 100%;
+  height: 120px;
+  width: 130%;
 }
 
 .content {
   position: relative;
-  height: calc(100vh - (47.6px + 180px));
+  height: calc(100vh - (47.6px + 120px));
   background: var(--secondary-color-1);
   padding: 5px;
 }
 
 .main {
-  height: calc(100% - 47.6px - 20px);
-  width: 100%;
+  height: 208%;
+  width: 128%;
   position: absolute;
   background: var(--secondary-color-1);
 }
@@ -28,9 +28,9 @@
   width: 44vw;
   text-align: center;
   position: relative;
-  top: 40px;
+  top: 10px;
   a:hover {
-    text-decoration: none; 
+    text-decoration: none;
   }
 }
 
@@ -48,9 +48,10 @@
 
 .NoServerCreated {
   text-align: center;
-  margin-top: 25vh;
+  margin-left: 25vh;
+  margin-top: 27vh;
   font-family: GlacialIndifferenceRegular;
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 600;
   color: $text-main-color;
 }

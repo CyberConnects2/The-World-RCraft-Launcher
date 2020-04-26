@@ -2,7 +2,7 @@
 
 .sidenav {
   width: 200px;
-  height: 100vh;
+  height: 0vh;
   position: absolute;
   right: 0;
   background-color: var(--secondary-color-2);
@@ -15,8 +15,8 @@
       line-height: 40px;
       span:first-child {
         position: relative;
-        top: 3px;
-        left: 6px;
+        top: -35px;
+        left: 130px;
       }
       span:nth-child(2) {
         margin-left: 10px;
@@ -25,8 +25,8 @@
       .logout {
         position: absolute;
         right: 10px;
-        font-size: 21px;
-        margin-top: 10px;
+        font-size: 24px;
+        margin-top: -35px;
         color: $text-main-color;
         cursor: pointer;
         transition: all 0.2s ease-in-out;
@@ -75,16 +75,16 @@
   position: absolute;
   display: flex;
   width: 200px;
-  bottom: 60px;
-  padding-right: 5px;
+  bottom: 90px;
+  padding-right: 30px;
   align-items: center;
   align-content: center;
   justify-content: space-between;
 
   .version {
     a {
-      color: #7f8c8d;
-      padding-left: 160px;
+      color: #ffffff;
+      padding-right: 30px;
     }
   }
 }

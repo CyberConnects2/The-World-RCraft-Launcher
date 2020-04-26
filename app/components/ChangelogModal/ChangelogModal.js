@@ -19,17 +19,26 @@ export default props => {
     <Modal
       history={props.history}
       unMount={unMount}
-      title={`WHAT'S NEW IN v${require('../../../package.json').version}`}
+      title={`The World RCraft Launcher: ${require('../../../package.json').version} Changelog`}
       style={{ height: '70vh', width: 540 }}
     >
       <div className={styles.container}>
 
-        <h2 className={styles.hrTextGreen}>V1.1.1</h2>
+        <h2 className={styles.hrTextYellow}>The World RCraft Launcher</h2>
+        <span className={styles.summary}>
+          Changelog
+        </span>
+        <div style={{ margin: 15 }} />
         <div className={styles.subHrList}>
           <ul>
             <ChangelogRow
-              main="Did some clean up"
-              secondary=" Made things run better!"
+              main="Fixed head not showing correctly."
+            />
+            <ChangelogRow
+              main="Various UI improvements"
+            />
+			<ChangelogRow
+              main="Removed Discord RPC."
             />
           </ul>
         </div>

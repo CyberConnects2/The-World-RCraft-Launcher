@@ -289,25 +289,6 @@ export default class DInstance extends Component<Props> {
             </span>{' '}
             Open Folder
           </MenuItem>
-          {/* <MenuItem
-            disabled={this.isInstalling() || !isValid}
-            onClick={() => {}}
-          >
-            <FontAwesomeIcon icon={faCopy} /> Duplicate
-          </MenuItem> */}
-          <MenuItem
-            disabled={
-              this.isInstalling() ||
-              !isValid ||
-              playing.find(el => el.name === name)
-            }
-            onClick={() => this.props.repairInstance(name)}
-          >
-            <span>
-              <FontAwesomeIcon icon={faWrench} />
-            </span>{' '}
-            Repair
-          </MenuItem>
           <MenuItem
             disabled={
               this.isInstalling() || playing.find(el => el.name === name)

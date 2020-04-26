@@ -32,16 +32,28 @@ const MyAccount = props => {
       <Title>{t('MyAccount', 'My Account')}</Title>
       <div className={styles.accountInfo}>
         <div>
-          <CIcon size={70}><img src="http://twilightgamesstudio.com/games/rcraft/face.php?user=${this.props.username}"></img></CIcon>
+          <CIcon size={70}><img src={`http://twilightgamesstudio.com/games/rcraft/face.php?user=${props.username}`}></img></CIcon>
         </div>
         <div>
-          <div className={styles.divider} />
-		  <span>{t('Username', 'Username')}</span>
+          <span>{t('Username', 'Username')}</span>
           <span className={styles.info}>{props.username}</span>{' '}
           <CopyIcon text={props.username} />
           <div className={styles.divider} />
+          <span>{t('UUID', 'UUID')}</span>
+          <span className={styles.info}>{props.uuid.substring(0, 8)}-{props.uuid.substring(8, 12)}-{props.uuid.substring(12, 16)}-{props.uuid.substring(16, 20)}-{props.uuid.substring(20, 32)}</span>{' '}
+          <CopyIcon text={props.uuid} />
         </div>
       </div>
+      <Title>{t('Preferences', 'Preferences')}</Title>
+      <SettingCard>
+        <SwitchSetting
+          mainText={t('EnableSoundsTitle', 'Enable Sounds')}
+          description={t('EnableSoundsDescription', 'Enable sounds to be played when specific actions are triggered')}
+          icon="sound"
+          checked={props.settings.sounds}
+          onChange={props.setSounds}
+        />
+      </SettingCard>
     </div>
   );
 };
@@ -50,7 +62,8 @@ function mapStateToProps(state) {
   return {
     username: state.auth.displayName,
     email: state.auth.email,
-    settings: state.settings
+    settings: state.settings,
+    uuid: state.auth.uuid
   };
 }
 

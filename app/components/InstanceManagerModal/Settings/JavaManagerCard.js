@@ -115,12 +115,12 @@ function JavaManagerCard(props) {
     >
       <div style={{ padding: 10 }}>
         <div className={styles.mainTextSlider}>
-          Java Memory (
-          {is64bit ? (
-            '64 bit)'
-          ) : (
+          Java (
+          {is64bit ?
+            'Memory'
+          : (
             <React.Fragment>
-              32 bit)&nbsp;
+              Memory&nbsp;
               <Tooltip
                 placement="right"
                 title="Your system uses a 32 bit Java, which allows a maximum of 1.5GB to be used. If you want more, install or select a 64 bit java executable"

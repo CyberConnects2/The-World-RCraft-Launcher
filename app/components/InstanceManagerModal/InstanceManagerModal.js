@@ -17,9 +17,6 @@ import SideMenu from '../Common/SideMenu/SideMenu';
 import MenuItem from '../Common/SideMenu/MenuItem/MenuItem';
 import Settings from './Settings/Settings';
 import ModsManager from './ModsManager/ModsManager';
-import ResourcePacks from './ResourcePacks/ResourcePacks';
-import Worlds from './Worlds/Worlds';
-import Screenshots from './Screenshots/Screenshots';
 import InstanceIcon from '../../assets/images/instanceDefault.png';
 import ModpackVersions from './ModpackVersions/ModpackVersions';
 
@@ -184,6 +181,12 @@ class InstanceManagerModal extends Component<Props> {
             >
               Settings
             </MenuItem>
+            <MenuItem
+              active={this.props.match.params.page === 'mods'}
+              to={`/editInstance/${this.props.match.params.instance}/mods/local/${this.state.version}`}
+            >
+              Mods Manager
+            </MenuItem>
             {this.state.isModpack && (
               <MenuItem
                 active={this.props.match.params.page === 'modpackVersions'}
@@ -208,10 +211,6 @@ class InstanceManagerModal extends Component<Props> {
               component={ModsManager}
             />
             <Route
-              path="/editInstance/:instance/resourcepacks"
-              component={ResourcePacks}
-            />
-            <Route
               path="/editInstance/:instance/modpackVersions"
               render={() => (
                 <ModpackVersions
@@ -219,11 +218,6 @@ class InstanceManagerModal extends Component<Props> {
                   instance={this.props.match.params.instance}
                 />
               )}
-            />
-            <Route path="/editInstance/:instance/worlds" component={Worlds} />
-            <Route
-              path="/editInstance/:instance/screenshots"
-              component={Screenshots}
             />
           </div>
         </div>

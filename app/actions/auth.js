@@ -23,7 +23,7 @@ export const AUTH_FAILED = 'AUTH_FAILED';
 export const START_NATIVE_LOADING = 'START_NATIVE_LOADING';
 export const STOP_NATIVE_LOADING = 'STOP_NATIVE_LOADING';
 
-export function login(username, password, remember) {
+export function login(username, password, uuid, remember) {
   return async dispatch => {
     dispatch({
       type: START_AUTH_LOADING
@@ -56,7 +56,6 @@ export function login(username, password, remember) {
           uuid: data.selectedProfile.id,
           userID: data.user.id
         };
-        console.log(data);
         if (remember) {
           store.set({
             user: {
@@ -83,7 +82,7 @@ export function login(username, password, remember) {
         }
       } else {
         message.error('Unknown Error. Please try again later.');
-        dispatch( { type: AUTH_FAILED } );
+         dispatch( { type: AUTH_FAILED } );
       }
     } catch (err) {
       console.error(err);
@@ -144,7 +143,9 @@ export function checkAccessToken() {
           );
           if (newUserData) {
             const payload = {
-              username: newUserData.selectedProfile.name,
+              email: userData.email, // email doesn't change when we're refreshing token
+              username: newUserData.user.username,
+              displayName: newUserData.selectedProfile.name,
               accessToken: newUserData.accessToken,
               uuid: newUserData.selectedProfile.id,
               userID: newUserData.user.id
@@ -209,11 +210,12 @@ export function tryNativeLauncherProfiles() {
     );
     const { clientToken } = vnlJson;
     const { account } = vnlJson.selectedUser;
-    const { accessToken } = vnlJson.authenticationDatabase[account];
+    const { accessToken, username } = vnlJson.authenticationDatabase[account];
     const newUserData = await refreshAccessToken(accessToken, clientToken, true);
     if (newUserData) {
       const payload = {
-        username: newUserData.selectedProfile.name,
+        email: username,
+        username: newUserData.user.username,
         displayName: newUserData.selectedProfile.name,
         accessToken: newUserData.accessToken,
         uuid: newUserData.selectedProfile.id,

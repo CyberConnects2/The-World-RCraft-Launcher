@@ -32,7 +32,7 @@ const primaryColor =
 const secondaryColor =
   settings && settings['secondary-color-1']
     ? settings['secondary-color-1']
-    : '#34495e';
+    : '#212b36';
 
 if (minimist(process.argv.slice(1)).i) {
   cli(process.argv, () => app.quit());
@@ -125,7 +125,7 @@ if (minimist(process.argv.slice(1)).i) {
     });
 
     mainWindow.loadURL(`file://${__dirname}/app.html`, {
-      userAgent: 'TheWorldRCraft'
+      userAgent: 'GDLauncher'
     });
 
     // @TODO: Use 'ready-to-show' event
@@ -137,19 +137,6 @@ if (minimist(process.argv.slice(1)).i) {
       splash.destroy();
 
 
-      // Sets the DISCORD-RPC
-      const clientId = '222718589675896833';
-      let rpc = new DiscordRPC.Client({ transport: 'ipc' });
-      rpc.once('ready', () => {
-        rpc.setActivity({
-          details: `Playing`,
-          startTimestamp: Math.floor(Date.now() / 1000),
-          largeImageKey: 'theworldrcraftlogo_3',
-          largeImageText: 'The World RCraft - A Custom Minecraft Launcher',
-          instance: false,
-        });
-      });
-      rpc.login({ clientId }).catch(log.error);
 
       autoUpdater.logger = log;
       autoUpdater.autoDownload = false;

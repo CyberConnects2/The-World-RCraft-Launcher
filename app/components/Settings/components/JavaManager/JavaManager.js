@@ -49,7 +49,7 @@ function JavaManager(props) {
 
   return (
     <div>
-      <Title>{t('JavaManagerGlobal', 'Java Manager (Global)')}</Title>
+      <Title>{t('JavaManagerGlobal', 'Java')}</Title>
       <SwitchSetting
         mainText={t('AutodetectJavaPath', 'Autodetect Java Path')}
         description={t('AutodetectJavaPathDescription', 'If enabled, java path will be autodetected')}

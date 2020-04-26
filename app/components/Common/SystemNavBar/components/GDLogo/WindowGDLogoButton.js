@@ -2,14 +2,14 @@
 import React, { Component } from 'react';
 import { remote } from 'electron';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWindowMaximize } from '@fortawesome/free-solid-svg-icons';
-import styles from './WindowMinimizeButton.scss';
+import { faTwitch } from '@fortawesome/free-solid-svg-icons';
+import styles from './WindowGDLogoButton.scss';
 
 type Props = {};
-export default class WindowMinimizeButton extends Component<Props> {
+export default class GDLogo extends Component<Props> {
   props: Props;
 
-  MinMaxWindow = () => {
+  GDLogo = () => {
     const w = remote.getCurrentWindow();
     if (w.isMaximized()) {
       w.unmaximize();
@@ -21,10 +21,10 @@ export default class WindowMinimizeButton extends Component<Props> {
   render() {
     return (
       <div>
-        <button className={styles.CloseBtn} onClick={this.MinMaxWindow}>
+        <button className={styles.CloseBtn} onClick={this.GDLogo}>
           <FontAwesomeIcon
-            icon={faWindowMaximize}
-            style={{ width: '30px', height: '25px' }}
+            icon={faTwitch}
+            style={{ width: '40px', height: '35px' }}
           />
         </button>
       </div>

@@ -30,7 +30,7 @@ export default props => {
         // Deletes the _JAVA_OPTIONS from the system register
         const { stdout, stderr } = await promisify(exec)(
           `REG delete "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Environment" /F /V _JAVA_OPTIONS`,
-          { name: 'TheWorldRCraft Java Fixer' }
+          { name: 'The World RCraft Java Fixer' }
         );
       } catch (err) {
         if (

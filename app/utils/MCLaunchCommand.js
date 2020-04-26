@@ -32,7 +32,7 @@ const getStartCommand = async (packName, userData, settings, javaArguments) => {
   let forgeJSON = null;
   if (forge !== null) {
     try {
-      // Handling legacy TheWorldRCraft instances without the forge- in the name
+      // Handling legacy GDLauncher instances without the forge- in the name
       forgeJSON = JSON.parse(
         await promisify(fs.readFile)(
           path.join(META_PATH, 'net.minecraftforge', forge, `${forge}.json`)
@@ -57,11 +57,11 @@ const getStartCommand = async (packName, userData, settings, javaArguments) => {
     os.release().substr(0, 2) === 10
       ? '"-Dos.name=Windows 10" -Dos.version=10.0 '
       : '';
-      // If OSX and 1.13+ then we need something special to be added.
+  // If OSX and 1.13+ then we need something special to be added.
   const OSX_XstartOnFirstThread = 
-  os.type() === 'Darwin' && vanillaJSON.arguments
-    ? '-XstartOnFirstThread'
-    : '';
+    os.type() === 'Darwin' && vanillaJSON.arguments
+      ? '-XstartOnFirstThread'
+      : '';
   // It concatenates vanilla and forge libraries. If the instance does not contain forge, it concatenates an empty array
   const libs = await computeVanillaAndForgeLibraries(vanillaJSON, forgeJSON);
   const Arguments = getMCArguments(
@@ -82,7 +82,7 @@ const getStartCommand = async (packName, userData, settings, javaArguments) => {
 
 "${javaPath}" ${config.overrideArgs ||
     javaArguments} -Xmx${instanceConfigJSON.overrideMemory ||
-      settings.java.memory}m ${dosName} ${OSX_XstartOnFirstThread} -Djava.library.path="${path.join(
+    settings.java.memory}m ${dosName} ${OSX_XstartOnFirstThread} -Djava.library.path="${path.join(
       PACKS_PATH,
       packName,
       'natives'

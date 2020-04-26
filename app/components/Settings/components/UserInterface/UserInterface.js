@@ -32,7 +32,7 @@ const primaryPresets = [
 ];
 
 const secondaryPresets = [
-  '#34495e',
+  '#212b36',
   '#2c3e50',
   '#95a5a6',
   '#bdc3c7',
@@ -60,9 +60,15 @@ const UserInterface = props => {
           mainText={
             <span>
               {t('SelectedTheme', 'Select Theme')}{' '}
+              <a
+                onClick={() => props.applyTheme(THEMES.default)}
+                style={{ fontSize: 13 }}
+              >
+                {t('ResetTheme', 'Reset Theme')}
+              </a>
             </span>
           }
-          description={t('AdjustValuesToFitTaste', 'Custom Themes will be selectable here.')}
+          description={t('AdjustValuesToFitTaste', 'Adjust these values to fit your taste')}
           icon="layout"
           placeholder={t('SelectATheme', 'Select A Theme')}
           onChange={v =>
@@ -72,6 +78,36 @@ const UserInterface = props => {
           }
           options={Object.keys(THEMES).map(t => THEMES[t].name)}
         />
+        <div className={styles.pickersContainer}>
+          <div>
+            {t('PrimaryColor', 'Primary Color')}{' '}
+            <SketchPicker
+              onChange={v => props.setThemeValue('primary', v.hex)}
+              onChangeComplete={v => props.saveThemeValue('primary', v.hex)}
+              color={props.settings.theme.primary}
+              presetColors={primaryPresets}
+              disableAlpha
+            />
+          </div>
+          <div>
+            {t('SecondaryColor', 'Secondary Color')}{' '}
+            <SketchPicker
+              onChange={v => {
+                props.setThemeValue('secondary-color-1', shader(v.hex, 40));
+                props.setThemeValue('secondary-color-2', shader(v.hex, 20));
+                props.setThemeValue('secondary-color-3', v.hex);
+              }}
+              onChangeComplete={v => {
+                props.saveThemeValue('secondary-color-1', shader(v.hex, 40));
+                props.saveThemeValue('secondary-color-2', shader(v.hex, 20));
+                props.saveThemeValue('secondary-color-3', v.hex);
+              }}
+              color={props.settings.theme['secondary-color-1']}
+              presetColors={secondaryPresets}
+              disableAlpha
+            />
+          </div>
+        </div>
       </SettingCard>
     </div>
   );

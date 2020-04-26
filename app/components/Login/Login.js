@@ -30,7 +30,7 @@ const FormItem = Form.Item;
 // This is awful but it gets the primary color in real time
 
 function Login(props) {
-  const [fastLogin, setFastLogin] = useState(false);
+  const [fastLogin, setFastLogin] = useState(true);
   const [nativeLauncherProfiles, setNativeLauncherProfiles] = useState(false);
   const { t } = useTranslation();
   const [colors, setColors] = useState(
@@ -82,7 +82,7 @@ function Login(props) {
             <FormItem>
               {getFieldDecorator('username', {
                 rules: [
-                  { required: true, message: t('InputEmail', 'Please Input Your Memmber Address') }
+                  { required: true, message: t('InputEmail', 'Please Input Your Member Address') }
                 ],
                 initialValue: store.has('lastUsername')
                   ? store.get('lastUsername')
@@ -160,6 +160,26 @@ function Login(props) {
               </Button>
             </FormItem>
           </Form>
+          {nativeLauncherProfiles && (
+            <Button
+              icon="forward"
+              loading={props.nativeLoading}
+              size="large"
+              type="primary"
+              className={styles.login_form_button}
+              style={{ marginTop: '30px' }}
+              onClick={() => props.tryNativeLauncherProfiles()}
+            >
+              <span>
+                {t('LoginAs', 'Login As')}{' '}
+                <span
+                  style={{ fontStyle: 'italic', textDecoration: 'underline' }}
+                >
+                  {nativeLauncherProfiles}
+                </span>
+              </span>
+            </Button>
+          )}
         </div>
         <div
           style={{
@@ -193,7 +213,8 @@ function mapStateToProps(state) {
 }
 
 const mapDispatchToProps = {
-  login
+  login,
+  tryNativeLauncherProfiles
 };
 
 export default connect(

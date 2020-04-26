@@ -16,6 +16,7 @@ import {
 } from 'react-sortable-hoc';
 import { ContextMenu, MenuItem, ContextMenuTrigger } from 'react-contextmenu';
 import { hideMenu } from 'react-contextmenu/es6/actions';
+import Featured from './components/CurseModpacksFeatured/CurseModpacksFeatured';
 import styles from './DManager.scss';
 import DInstance from '../../containers/DInstance';
 import { history } from '../../store/configureStore';
@@ -62,34 +63,21 @@ export default class DManager extends Component<Props> {
 
   render() {
     return (
-      <main
+	  <main
         className={styles.main}
         onClick={e => {
           e.stopPropagation();
           this.props.selectInstance(null);
         }}
       >
-        <div className={styles.header}>
-          <div className={styles.headerButtons}>
-            <div>
-              <Button.Group>
-                <Link
-                  to={{
-                    pathname: '/importPack',
-                    state: { modal: true }
-                  }}
-                >
-                  <Button type="primary">Import</Button>
-                </Link>
-              </Button.Group>
-            </div>
-          </div>
-        </div>
+		<div>
+			<Featured featured={this.props.featured} />
+		</div>
         <ContextMenuTrigger id="contextMenu-dmanager">
           <div className={styles.content} onScroll={this.handleScroll}>
             {this.props.instances.length === 0 ? (
               <h1 className={styles.NoServerCreated}>
-                YOU HAVEN'T ADDED ANY INSTANCE YET
+                No Instances
               </h1>
             ) : (
               <SortableList
@@ -103,26 +91,6 @@ export default class DManager extends Component<Props> {
             )}
           </div>
         </ContextMenuTrigger>
-        <ContextMenu
-          id="contextMenu-dmanager"
-          onShow={e => {
-            e.stopPropagation();
-            this.props.selectInstance(null);
-          }}
-        >
-          <MenuItem
-            data={{ foo: 'bar' }}
-            onClick={() =>
-              history.push({
-                pathname: '/InstanceCreatorModal',
-                state: { modal: true }
-              })
-            }
-          >
-            <FontAwesomeIcon icon={faPlay} style={{ marginRight: '8px' }} />
-            Add New Instance
-          </MenuItem>
-        </ContextMenu>
       </main>
     );
   }

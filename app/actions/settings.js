@@ -12,6 +12,7 @@ export const SET_THEME = 'SET_THEME';
 export const RESET_THEME = 'RESET_THEME';
 export const SET_GLOBAL_JAVA_ARGUMENTS = 'SET_GLOBAL_JAVA_ARGUMENTS';
 export const SET_INSTANCES_PATH = 'SET_INSTANCES_PATH';
+export const SET_DISCORD = 'SET_DISCORD';
 
 export function loadSettings() {
   return dispatch => {
@@ -82,6 +83,17 @@ export function setSounds(val) {
   return dispatch => {
     try {
       dispatch({ type: SET_SOUNDS, payload: val });
+      dispatch(saveSettings());
+    } catch (err) {
+      log.error(err.message);
+    }
+  };
+}
+
+export function setDiscord(val) {
+  return dispatch => {
+    try {
+      dispatch({ type: SET_DISCORD, payload: val });
       dispatch(saveSettings());
     } catch (err) {
       log.error(err.message);

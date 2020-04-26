@@ -10,8 +10,7 @@ export default props => {
     <div className={styles.main}>
       <div>
         <img src={creeper} />
-        <h1>WE’RE SSSSSSSORRY</h1>
-        <h2>TheWorldRCraft ran into a creeper and blew up..</h2>
+        <h1>The World RCraft Launcher Crashed</h1>
         <Button
           type="primary"
           onClick={() => {
@@ -19,7 +18,7 @@ export default props => {
             remote.app.quit();
           }}
         >
-          Restart TheWorldRCraft
+          Restart he World RCraft Launcher
         </Button>
       </div>
     </div>
