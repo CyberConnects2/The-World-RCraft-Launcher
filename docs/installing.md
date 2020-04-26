@@ -16,4 +16,4 @@ Part 4: Installing the Game
 
 5. Right click the The World RCraft icon and click Launch.
 
-![alt](https://i.imgur.com/npRihNL.png)
+![alt](https://i.imgur.com/FMNfvUI.png)
