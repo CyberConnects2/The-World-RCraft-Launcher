@@ -125,7 +125,7 @@ if (minimist(process.argv.slice(1)).i) {
     });
 
     mainWindow.loadURL(`file://${__dirname}/app.html`, {
-      userAgent: 'GDLauncher'
+      userAgent: 'The-World-RCraft-Launcher'
     });
 
     // @TODO: Use 'ready-to-show' event

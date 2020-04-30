@@ -32,7 +32,7 @@ const getStartCommand = async (packName, userData, settings, javaArguments) => {
   let forgeJSON = null;
   if (forge !== null) {
     try {
-      // Handling legacy GDLauncher instances without the forge- in the name
+      // Handling legacy The World RCraft Launcher instances without the forge- in the name
       forgeJSON = JSON.parse(
         await promisify(fs.readFile)(
           path.join(META_PATH, 'net.minecraftforge', forge, `${forge}.json`)

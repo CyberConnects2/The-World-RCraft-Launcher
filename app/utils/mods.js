@@ -142,6 +142,6 @@ export const createDoNotTouchFile = async instance => {
   await makeDir(path.join(PACKS_PATH, instance, 'mods'));
   await promisify(fs.writeFile)(
     path.join(PACKS_PATH, instance, 'mods', '_README_I_AM_VERY_IMPORTANT.txt'),
-    'Do not directly edit the files in this folder, if you want to delete a file or add one, use GDLauncher. \r DO NOT RENAME ANYTHING'
+    ''
   );
 };
